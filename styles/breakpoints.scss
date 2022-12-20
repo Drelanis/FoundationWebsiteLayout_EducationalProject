@@ -1,0 +1,13 @@
+@import 'variables';
+
+@mixin small-screen {
+  @media screen and (max-width: sm) {
+    @content;
+  }
+}
+
+@mixin extra-large-screen {
+  @media screen and (min-width: xl) {
+    @content;
+  }
+}

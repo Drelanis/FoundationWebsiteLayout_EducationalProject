@@ -1,10 +1,206 @@
+.header {
+  display: flex;
+  flex-direction: column;
+}
+.header__menu {
+  display: flex;
+  padding-left: 15px;
+  height: 64px;
+}
+.header__menu_logo {
+  display: flex;
+}
+.header__menu_logo .header__menu_logo-icon {
+  margin: auto;
+  width: 48px;
+}
+.header__menu_logo .header__menu_logo-text {
+  margin: auto 0 auto 13px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+}
+.header__menu_navigation {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  border-left: 1px solid rgba(0, 0, 0, 0.15);
+  width: 58px;
+}
+.header__menu_navigation .header__menu_navigation-icon {
+  margin: auto;
+}
+.header__menu_navigation .header__menu_navigation-icon .navigation-icon-line {
+  width: 18px;
+  height: 2.17px;
+  background-color: rgb(44, 50, 65);
+  opacity: 0.6;
+}
+.header__menu_navigation .header__menu_navigation-icon .navigation-icon-line:not(:first-child) {
+  margin-top: 3.25px;
+}
+.header__headline {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(243, 198, 189);
+}
+.header__headline_title {
+  padding: 0 15px 0 15px;
+  margin: 35px 0 0 0;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  letter-spacing: -0.3125px;
+  color: rgb(43, 41, 45);
+}
+.header__headline_description {
+  padding: 0 15px 0 15px;
+  margin: 24px 0 0 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgb(43, 41, 45);
+}
+.header__headline_button-started {
+  margin: 30px 15px 0 15px;
+  padding: 0;
+  border: none;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  background-color: rgb(48, 64, 196);
+  color: rgb(255, 255, 255);
+}
+.header__headline_button-learn {
+  margin: 30px 15px 0 15px;
+  padding: 0;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 64, 196);
+  border: none;
+}
+.header__headline_image .main-image {
+  width: 100%;
+  margin-top: 33px;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  color: rgb(43, 41, 45);
+  background-color: rgb(244, 245, 247);
+  font-size: 22px;
+  line-height: 32px;
+  padding: 46px 15px 46px;
+}
+.description__about {
+  margin: 0;
+}
+.description__about_title {
+  font-weight: 700;
+  margin: 0;
+}
+.description__about_text {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.description__for {
+  margin: 20px 0 0;
+}
+.description__for_title {
+  font-weight: 700;
+  margin: 0;
+}
+.description__for_text {
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logos__line {
+  display: flex;
+}
+.logos__line_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 107px;
+  height: 94px;
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+.logos__line_icon .icon-image-the-new-york-times,
+.logos__line_icon .icon-image-forbes,
+.logos__line_icon .icon-image-mashable,
+.logos__line_icon .icon-image-google {
+  filter: brightness(0);
+  width: 80%;
+}
+.logos__line_icon:not(:last-child) {
+  border-right: 1px solid rgb(227, 227, 227);
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+}
+.features__content {
+  display: flex;
+  flex-direction: column;
+  padding: 49px 15px 50px 15px;
+}
+.features__content_subtitle {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: rgb(0, 155, 77);
+  margin: 0;
+}
+.features__content_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.357143px;
+  color: rgb(43, 41, 45);
+  margin: 17px 0 0;
+}
+.features__content_text {
+  margin: 15px 0 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgb(43, 41, 45);
+}
+.features__content_card {
+  margin: 15px 0 0;
+}
+.features__content_card .card-description {
+  margin: 19px 0 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.6);
+}
+.features__border-bottom {
+  height: 1px;
+  width: 100vw;
+  background-color: rgb(227, 227, 227);
+}
+
 * {
   box-sizing: border-box;
 }
 
 html {
   font-family: "Work Sans", sans-serif;
-  font-weight: 700;
 }
 
 /*# sourceMappingURL=styles.css.map */

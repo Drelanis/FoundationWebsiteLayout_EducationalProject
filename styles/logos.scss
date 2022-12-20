@@ -1,0 +1,29 @@
+@import 'variables.scss';
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &__line {
+    display: flex;
+    &_icon {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 107px;
+      height: 94px;
+      border-bottom: 1px solid $background-color-border;
+
+      .icon-image-the-new-york-times,
+      .icon-image-forbes,
+      .icon-image-mashable,
+      .icon-image-google {
+        filter: brightness(0);
+        width: 80%;
+      }
+    }
+    &_icon:not(:last-child) {
+      border-right: 1px solid $background-color-border;
+    }
+  }
+}

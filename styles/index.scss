@@ -1,8 +1,13 @@
+@import 'variables.scss';
+@import 'header.scss';
+@import 'description.scss';
+@import 'logos.scss';
+@import 'features.scss';
+
 * {
   box-sizing: border-box;
 }
 
 html {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 700;
 }

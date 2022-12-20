@@ -1,0 +1,33 @@
+@import 'variables.scss';
+
+.description {
+  display: flex;
+  flex-direction: column;
+  color: $text-color;
+  background-color: $background-color-description;
+  font-size: 22px;
+  line-height: 32px;
+  padding: 46px 15px 46px;
+  &__about {
+    margin: 0;
+    &_title {
+      font-weight: 700;
+      margin: 0;
+    }
+    &_text {
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+  }
+  &__for {
+    margin: 20px 0 0;
+    &_title {
+      font-weight: 700;
+      margin: 0;
+    }
+    &_text {
+      font-weight: 400;
+      margin-bottom: 0;
+    }
+  }
+}
