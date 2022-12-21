@@ -1,0 +1,66 @@
+@import 'variables.scss';
+
+.commucate {
+  //   display: flex;
+  //   flex-direction: column;
+  padding: 50px 15px;
+  background-color: $background-color-commucate;
+  &__description {
+    &_subtitle {
+      margin: 0;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 34px;
+      color: $color-subtitle-blue;
+    }
+    &_title {
+      margin: 17px 0 0;
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      letter-spacing: -0.357143px;
+      color: $text-color;
+    }
+    &_text {
+      margin: 18px 0 0;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+      color: $text-color;
+    }
+  }
+  .button-started {
+    width: 160px;
+    height: 48px;
+    margin: 30px 0 0;
+  }
+  &__card {
+    margin: 40px 0 0;
+    &_image {
+      max-width: 100%;
+    }
+    &_signature {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      color: $text-color-card-description;
+    }
+  }
+  .communicate__possibilities_item {
+    margin: 33px 0 0 0;
+  }
+  .communicate__possibilities_item-text {
+    margin: 0;
+    font-size: 18px;
+    line-height: 26px;
+    color: $text-color;
+  }
+  .communicate__possibilities_item-link {
+    margin-bottom: 0;
+    color: $color-link;
+  }
+  .communicate__possibilities_item-link a:visited {
+    color: $color-link;
+  }
+}

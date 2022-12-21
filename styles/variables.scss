@@ -15,7 +15,8 @@ $background-color-inbox-comment: linear-gradient(
     rgba(255, 255, 255, 1e-5) 100%
   ),
   #ffffff;
-$background-color-border-inbox-comment: #0185d0;
+$background-color-border-inbox-comment: rgb(1, 133, 208);
+$background-color-commucate: rgb(242, 242, 242);
 
 $color-button-white: rgb(255, 255, 255);
 $color-button-blue: rgb(48, 64, 196);
@@ -23,6 +24,8 @@ $color-subtitle-green: rgb(0, 155, 77);
 $color-subtitle-red: rgb(241, 89, 43);
 $text-color-card-description: rgba(43, 41, 45, 0.6);
 $color-information-position: rgba(43, 41, 45, 0.6);
+$color-subtitle-blue: rgb(1, 137, 209);
+$color-link: rgb(48, 64, 196);
 
 $box-shadow-inbox-comment: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
   inset 0px 1px 0px rgba(255, 255, 255, 0.1);

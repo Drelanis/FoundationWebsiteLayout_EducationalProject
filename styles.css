@@ -61,17 +61,6 @@
   line-height: 34px;
   color: rgb(43, 41, 45);
 }
-.header__headline_button-started {
-  margin: 30px 15px 0 15px;
-  padding: 0;
-  border: none;
-  height: 48px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 13px;
-  background-color: rgb(48, 64, 196);
-  color: rgb(255, 255, 255);
-}
 .header__headline_button-learn {
   margin: 30px 15px 0 15px;
   padding: 0;
@@ -86,6 +75,18 @@
 .header__headline_image .main-image {
   width: 100%;
   margin-top: 33px;
+}
+
+.button-started {
+  margin: 30px 15px 0 15px;
+  padding: 0;
+  border: none;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  background-color: rgb(48, 64, 196);
+  color: rgb(255, 255, 255);
 }
 
 .description {
@@ -203,7 +204,7 @@
 }
 .inbox__picture {
   margin-top: 50px;
-  width: 100%;
+  width: 290px;
 }
 .inbox__description {
   display: flex;
@@ -239,7 +240,7 @@
   margin-top: 30px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
-  border-bottom: 4px solid #0185d0;
+  border-bottom: 4px solid rgb(1, 133, 208);
 }
 .inbox__comment_text {
   margin: 0;
@@ -271,6 +272,67 @@
   margin: 0;
   font-weight: 400;
   color: rgba(43, 41, 45, 0.6);
+}
+
+.commucate {
+  padding: 50px 15px;
+  background-color: rgb(242, 242, 242);
+}
+.commucate__description_subtitle {
+  margin: 0;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 34px;
+  color: rgb(1, 137, 209);
+}
+.commucate__description_title {
+  margin: 17px 0 0;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.357143px;
+  color: rgb(43, 41, 45);
+}
+.commucate__description_text {
+  margin: 18px 0 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgb(43, 41, 45);
+}
+.commucate .button-started {
+  width: 160px;
+  height: 48px;
+  margin: 30px 0 0;
+}
+.commucate__card {
+  margin: 40px 0 0;
+}
+.commucate__card_image {
+  max-width: 100%;
+}
+.commucate__card_signature {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.6);
+}
+.commucate .communicate__possibilities_item {
+  margin: 33px 0 0 0;
+}
+.commucate .communicate__possibilities_item-text {
+  margin: 0;
+  font-size: 18px;
+  line-height: 26px;
+  color: rgb(43, 41, 45);
+}
+.commucate .communicate__possibilities_item-link {
+  margin-bottom: 0;
+  color: rgb(48, 64, 196);
+}
+.commucate .communicate__possibilities_item-link a:visited {
+  color: rgb(48, 64, 196);
 }
 
 * {

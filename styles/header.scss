@@ -61,17 +61,6 @@
       line-height: 34px;
       color: $text-color;
     }
-    &_button-started {
-      margin: 30px 15px 0 15px;
-      padding: 0;
-      border: none;
-      height: 48px;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 13px;
-      background-color: $color-button-blue;
-      color: $color-button-white;
-    }
     &_button-learn {
       margin: 30px 15px 0 15px;
       padding: 0;
@@ -90,4 +79,16 @@
       }
     }
   }
+}
+
+.button-started {
+  margin: 30px 15px 0 15px;
+  padding: 0;
+  border: none;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  background-color: $color-button-blue;
+  color: $color-button-white;
 }
