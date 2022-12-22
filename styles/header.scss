@@ -11,7 +11,7 @@
       display: flex;
       .header__menu_logo-icon {
         margin: auto;
-        width: 48px;
+        max-width: 100%;
       }
       .header__menu_logo-text {
         margin: auto 0 auto 13px;
@@ -61,17 +61,6 @@
       line-height: 34px;
       color: $text-color;
     }
-    &_button-learn {
-      margin: 30px 15px 0 15px;
-      padding: 0;
-      height: 48px;
-      font-weight: 700;
-      font-size: 18px;
-      line-height: 13px;
-      background-color: $color-button-white;
-      color: $color-button-blue;
-      border: none;
-    }
     &_image {
       .main-image {
         width: 100%;
@@ -91,4 +80,16 @@
   line-height: 13px;
   background-color: $color-button-blue;
   color: $color-button-white;
+}
+
+.button-learn {
+  margin: 30px 15px 0 15px;
+  padding: 0;
+  border: none;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  background-color: $color-button-white;
+  color: $color-button-blue;
 }

@@ -1,8 +1,6 @@
 @import 'variables.scss';
 
 .commucate {
-  //   display: flex;
-  //   flex-direction: column;
   padding: 50px 15px;
   background-color: $background-color-commucate;
   &__description {
@@ -50,17 +48,20 @@
   .communicate__possibilities_item {
     margin: 33px 0 0 0;
   }
-  .communicate__possibilities_item-text {
-    margin: 0;
-    font-size: 18px;
-    line-height: 26px;
-    color: $text-color;
-  }
-  .communicate__possibilities_item-link {
-    margin-bottom: 0;
-    color: $color-link;
-  }
-  .communicate__possibilities_item-link a:visited {
-    color: $color-link;
+
+  .communicate__possibilities {
+    .communicate__possibilities_item-text {
+      margin: 0;
+      font-size: 18px;
+      line-height: 26px;
+      color: $text-color;
+    }
+    .communicate__possibilities_item-link {
+      margin-bottom: 0;
+      color: $color-link;
+    }
+    .communicate__possibilities_item-link a:visited {
+      color: $color-link;
+    }
   }
 }
