@@ -1,0 +1,66 @@
+@import 'variables.scss';
+
+.hiring {
+  padding: 50px 15px;
+  &__description {
+    &_title {
+      font-weight: 700;
+      font-size: 40px;
+      line-height: 40px;
+      letter-spacing: -0.357143px;
+      color: $text-color;
+      text-align: center;
+    }
+    &_text {
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 34px;
+      color: $text-color;
+      text-align: center;
+    }
+  }
+  .button-started {
+    width: 100%;
+    margin: 0;
+  }
+  &__jobs {
+    margin: 39px 0 0;
+    &_vacancy {
+      display: flex;
+      border: 1px solid $background-color-border-hiring;
+      border-radius: 8px;
+      height: 140px;
+      margin: 15px 0 0;
+      .hiring__jobs_vacancy-description {
+        .hiring__jobs_vacancy-description-direction {
+          margin: 19px 21px 0 20px;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 28px;
+          color: $text-color;
+        }
+        .hiring__jobs_vacancy-description-time {
+          margin: 7px 21px 0 20px;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 22px;
+          color: $text-color;
+          opacity: 0.6;
+        }
+      }
+      .hiring__jobs_vacancy-arrow {
+        display: flex;
+        margin-left: auto;
+        width: 50px;
+        background-color: #d5d4d5;
+        border-radius: 0px 8px 8px 0px;
+        .hiring__jobs_vacancy-arrow-image {
+          margin: auto;
+          width: 12px;
+          height: 7px;
+          rotate: -90deg;
+        }
+      }
+    }
+  }
+}

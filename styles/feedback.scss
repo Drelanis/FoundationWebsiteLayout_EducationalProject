@@ -3,7 +3,7 @@
 .feedback {
   display: flex;
   flex-direction: column;
-  //   padding: 39px 15px 50px;
+  padding: 39px 15px 50px;
   &__about {
     margin: 39px 0 0;
     font-weight: 700;
@@ -52,8 +52,8 @@
     }
   }
   &__image {
-    margin: 40px 0 0;
-    max-width: 100%;
+    display: flex;
+    margin: 40px auto 0;
   }
 }
 

@@ -412,6 +412,7 @@
 .feedback {
   display: flex;
   flex-direction: column;
+  padding: 39px 15px 50px;
 }
 .feedback__about {
   margin: 39px 0 0;
@@ -461,8 +462,8 @@
   opacity: 0.2;
 }
 .feedback__image {
-  margin: 40px 0 0;
-  max-width: 100%;
+  display: flex;
+  margin: 40px auto 0;
 }
 
 .bottom-border {
@@ -470,6 +471,67 @@
   width: 100vw;
   margin: 50px 0 0;
   background-color: rgb(227, 227, 227);
+}
+
+.hiring {
+  padding: 50px 15px;
+}
+.hiring__description_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -0.357143px;
+  color: rgb(43, 41, 45);
+  text-align: center;
+}
+.hiring__description_text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgb(43, 41, 45);
+  text-align: center;
+}
+.hiring .button-started {
+  width: 100%;
+  margin: 0;
+}
+.hiring__jobs {
+  margin: 39px 0 0;
+}
+.hiring__jobs_vacancy {
+  display: flex;
+  border: 1px solid rgba(43, 41, 45, 0.2);
+  border-radius: 8px;
+  height: 140px;
+  margin: 15px 0 0;
+}
+.hiring__jobs_vacancy .hiring__jobs_vacancy-description .hiring__jobs_vacancy-description-direction {
+  margin: 19px 21px 0 20px;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28px;
+  color: rgb(43, 41, 45);
+}
+.hiring__jobs_vacancy .hiring__jobs_vacancy-description .hiring__jobs_vacancy-description-time {
+  margin: 7px 21px 0 20px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: rgb(43, 41, 45);
+  opacity: 0.6;
+}
+.hiring__jobs_vacancy .hiring__jobs_vacancy-arrow {
+  display: flex;
+  margin-left: auto;
+  width: 50px;
+  background-color: #d5d4d5;
+  border-radius: 0px 8px 8px 0px;
+}
+.hiring__jobs_vacancy .hiring__jobs_vacancy-arrow .hiring__jobs_vacancy-arrow-image {
+  margin: auto;
+  width: 12px;
+  height: 7px;
+  rotate: -90deg;
 }
 
 * {
