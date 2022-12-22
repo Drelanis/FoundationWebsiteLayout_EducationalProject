@@ -29,7 +29,7 @@
       display: flex;
       border: 1px solid $background-color-border-hiring;
       border-radius: 8px;
-      height: 140px;
+      height: 142px;
       margin: 15px 0 0;
       .hiring__jobs_vacancy-description {
         .hiring__jobs_vacancy-description-direction {
@@ -51,9 +51,11 @@
       .hiring__jobs_vacancy-arrow {
         display: flex;
         margin-left: auto;
+        height: 140px;
         width: 50px;
-        background-color: #d5d4d5;
-        border-radius: 0px 8px 8px 0px;
+        background-color: $background-outline-hiring;
+        outline: 1px solid $background-outline-hiring;
+        border-radius: 0px 6px 6px 0px;
         .hiring__jobs_vacancy-arrow-image {
           margin: auto;
           width: 12px;
