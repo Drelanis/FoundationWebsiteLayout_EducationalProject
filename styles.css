@@ -409,6 +409,69 @@
   color: rgb(242, 242, 242);
 }
 
+.feedback {
+  display: flex;
+  flex-direction: column;
+}
+.feedback__about {
+  margin: 39px 0 0;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 30px;
+  color: rgb(49, 66, 198);
+}
+.feedback__comment {
+  margin: 29px 0 0;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: rgb(43, 41, 45);
+}
+.feedback__user {
+  margin: 32px 0 0;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(43, 41, 45);
+}
+.feedback__user_name {
+  font-weight: 700;
+  margin: 0;
+}
+.feedback__user_position {
+  margin: 0;
+  font-weight: 400;
+  opacity: 0.6;
+}
+.feedback__scroll {
+  display: flex;
+  margin-top: 40px;
+  height: 12px;
+  width: 100%;
+  justify-content: center;
+}
+.feedback__scroll_circle {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgb(49, 66, 197);
+}
+.feedback__scroll_circle:not(:first-child) {
+  margin-left: 19.5px;
+  background-color: rgb(43, 41, 45);
+  opacity: 0.2;
+}
+.feedback__image {
+  margin: 40px 0 0;
+  max-width: 100%;
+}
+
+.bottom-border {
+  height: 1px;
+  width: 100vw;
+  margin: 50px 0 0;
+  background-color: rgb(227, 227, 227);
+}
+
 * {
   box-sizing: border-box;
 }
