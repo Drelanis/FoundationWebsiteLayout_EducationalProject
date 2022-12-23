@@ -12,7 +12,7 @@
       align-items: center;
       width: 107px;
       height: 94px;
-      border-bottom: 1px solid $background-color-border;
+      border-bottom: 1px solid $white;
 
       .icon-image-the-new-york-times,
       .icon-image-forbes,
@@ -23,7 +23,7 @@
       }
     }
     &_icon:not(:last-child) {
-      border-right: 1px solid $background-color-border;
+      border-right: 1px solid $white;
     }
   }
 }

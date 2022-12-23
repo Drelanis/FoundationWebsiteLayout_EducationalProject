@@ -24,14 +24,15 @@
       display: flex;
       flex-direction: column;
       margin-left: auto;
-      border-left: 1px solid $background-color-navigation-line;
+      border-left: 1px solid $black;
+      opacity: 0.15;
       width: 58px;
       .header__menu_navigation-icon {
         margin: auto;
         .navigation-icon-line {
           width: 18px;
           height: 2.17px;
-          background-color: $background-color-navigation-icon-line;
+          background-color: $black-first-shade;
           opacity: 0.6;
         }
         .navigation-icon-line:not(:first-child) {
@@ -43,7 +44,7 @@
   &__headline {
     display: flex;
     flex-direction: column;
-    background-color: $background-color-headline;
+    background-color: $skin;
     &_title {
       padding: 0 15px 0 15px;
       margin: 35px 0 0 0;
@@ -51,7 +52,7 @@
       font-size: 50px;
       line-height: 50px;
       letter-spacing: -0.3125px;
-      color: $text-color;
+      color: $main-text-color;
     }
     &_description {
       padding: 0 15px 0 15px;
@@ -59,7 +60,7 @@
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
-      color: $text-color;
+      color: $main-text-color;
     }
     &_image {
       .main-image {
@@ -78,8 +79,8 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 13px;
-  background-color: $color-button-blue;
-  color: $color-button-white;
+  background-color: $blue-third-shade;
+  color: $white-fourth-shade;
 }
 
 .button-learn {
@@ -90,6 +91,6 @@
   font-weight: 700;
   font-size: 18px;
   line-height: 13px;
-  background-color: $color-button-white;
-  color: $color-button-blue;
+  background-color: $white-fourth-shade;
+  color: $blue-third-shade;
 }

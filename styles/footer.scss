@@ -16,7 +16,7 @@
       font-size: 20px;
       line-height: 25px;
       text-align: center;
-      color: $text-color;
+      color: $main-text-color;
     }
     &_about {
       display: block;
@@ -24,7 +24,7 @@
       font-size: 20px;
       line-height: 25px;
       text-align: center;
-      color: $text-color-card-description;
+      color: $main-text-color-opacity-06;
     }
   }
   &__download {
@@ -49,14 +49,14 @@
       font-weight: 700;
       font-size: 22px;
       line-height: 28px;
-      color: $text-color;
+      color: $main-text-color;
       margin: 0;
     }
     &_list {
       font-weight: 400;
       font-size: 18px;
       line-height: 30px;
-      color: $text-color-card-description;
+      color: $main-text-color-opacity-06;
       margin: 18px 0 0;
       .footer__navigation_list-item {
         margin: 0;
@@ -73,7 +73,7 @@
       font-weight: 400;
       font-size: 14px;
       line-height: 22px;
-      color: $text-color-card-description;
+      color: $main-text-color-opacity-06;
     }
     &_item:not(:first-child) {
       margin-left: 8px;

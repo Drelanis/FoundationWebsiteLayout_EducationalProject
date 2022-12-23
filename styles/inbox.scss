@@ -3,7 +3,7 @@
 .inbox {
   display: flex;
   flex-direction: column;
-  background-color: $background-color-inbox;
+  background-color: $white-second-shade;
   padding: 0 15px 50px;
   &__picture {
     margin-top: 50px;
@@ -18,7 +18,7 @@
       font-weight: 700;
       font-size: 22px;
       line-height: 34px;
-      color: $color-subtitle-red;
+      color: $red;
     }
     &_title {
       margin: 17px 0 0;
@@ -26,14 +26,14 @@
       font-size: 40px;
       line-height: 40px;
       letter-spacing: -0.357143px;
-      color: $text-color;
+      color: $main-text-color;
     }
     &_text {
       margin: 18px 0 0;
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
-      color: $text-color;
+      color: $main-text-color;
     }
   }
   &__comment {
@@ -41,15 +41,15 @@
     flex-direction: column;
     padding: 30px 20px 30px;
     margin-top: 30px;
-    background: $background-color-inbox-comment;
+    background: $gradient-black-white;
     box-shadow: $box-shadow-inbox-comment;
-    border-bottom: 4px solid $background-color-border-inbox-comment;
+    border-bottom: 4px solid $blue-first-shade;
     &_text {
       margin: 0;
       font-weight: 400;
       font-size: 20px;
       line-height: 28px;
-      color: $text-color;
+      color: $main-text-color;
     }
     &_autor {
       display: flex;
@@ -66,12 +66,12 @@
         .inbox__comment_autor-information-name {
           margin: 0;
           font-weight: 700;
-          color: $text-color;
+          color: $main-text-color;
         }
         .inbox__comment_autor-information-position {
           margin: 0;
           font-weight: 400;
-          color: $color-information-position;
+          color: $main-text-color-opacity-06;
         }
       }
     }

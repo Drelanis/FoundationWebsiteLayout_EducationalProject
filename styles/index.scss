@@ -10,10 +10,12 @@
 @import 'hiring.scss';
 @import 'order.scss';
 @import 'footer.scss';
+
 * {
   box-sizing: border-box;
 }
 
 html {
   font-family: 'Work Sans', sans-serif;
+  color: $main-text-color;
 }

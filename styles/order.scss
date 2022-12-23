@@ -2,7 +2,7 @@
 
 .order {
   padding: 50px 15px;
-  background-color: $background-color-description;
+  background-color: $white-first-shade;
   &__picture {
     display: flex;
     justify-content: center;
@@ -16,19 +16,19 @@
       line-height: 40px;
       text-align: center;
       letter-spacing: -0.25px;
-      color: $text-color;
+      color: $main-text-color;
     }
     &_text {
       margin: 18px 0 0;
       font-weight: 400;
       font-size: 22px;
       line-height: 32px;
-      color: $text-color;
+      color: $main-text-color;
     }
   }
   &__email {
     margin: 40px 0 0;
-    border: 1px solid $background-color-border-hiring;
+    border: 1px solid $black-opacity-02;
     border-radius: 2px;
     font-weight: 400;
     font-size: 18px;
@@ -46,6 +46,6 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 22px;
-    color: $text-color-card-description;
+    color: $main-text-color-opacity-06;
   }
 }

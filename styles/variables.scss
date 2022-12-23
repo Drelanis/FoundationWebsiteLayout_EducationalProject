@@ -1,42 +1,40 @@
 $sm: 320px;
 $xl: 1400;
 
-$text-color: rgb(43, 41, 45);
+$main-text-color: rgb(43, 41, 45);
+$main-text-color-opacity-06: rgba(43, 41, 45, 0.6);
 
-$background-color-headline: rgb(243, 198, 189);
-$background-color-navigation-line: rgb(0, 0, 0, 0.15);
-$background-color-navigation-icon-line: rgb(44, 50, 65);
-$background-color-description: rgb(244, 245, 247);
-$background-color-border: rgb(227, 227, 227);
-$background-color-inbox: rgb(252, 240, 227);
-$background-color-inbox-comment: linear-gradient(
+$black: rgb(0, 0, 0);
+$black-first-shade: rgb(44, 50, 65);
+$black-opacity-02: rgba(43, 41, 45, 0.2);
+$black-opacity-007: rgb(0, 161, 198, 0.07);
+
+$white: rgb(227, 227, 227);
+$white-first-shade: rgb(244, 245, 247);
+$white-second-shade: rgb(252, 240, 227);
+$white-third-shade: rgb(242, 242, 242);
+$white-fourth-shade: rgb(255, 255, 255);
+
+$blue-first-shade: rgb(1, 133, 208);
+$blue-second-shade: rgb(49, 66, 197);
+$blue-third-shade: rgb(48, 64, 196);
+$blue-fourth-shade: rgb(1, 137, 209);
+$blue-fifth-shade: rgb(49, 66, 198);
+
+$skin: rgb(243, 198, 189);
+
+$grey: rgb(213, 212, 213);
+
+$green: rgb(0, 155, 77);
+
+$red: rgb(241, 89, 43);
+
+$gradient-black-white: linear-gradient(
     180deg,
     rgba(255, 255, 255, 0.05) 0%,
     rgba(255, 255, 255, 1e-5) 100%
   ),
   #ffffff;
-$background-color-border-inbox-comment: rgb(1, 133, 208);
-$background-color-commucate: rgb(242, 242, 242);
-$background-color-audience: rgb(0, 161, 198, 0.07);
-$background-audience: linear-gradient(
-    180deg,
-    rgba(255, 255, 255, 0.05) 0%,
-    rgba(255, 255, 255, 1e-5) 100%
-  ),
-  #ffffff;
-$background-color-blue-feedback-circle: rgb(49, 66, 197);
-$background-color-border-hiring: rgba(43, 41, 45, 0.2);
-$background-outline-hiring: rgb(213, 212, 213);
-
-$color-button-white: rgb(255, 255, 255);
-$color-button-blue: rgb(48, 64, 196);
-$color-subtitle-green: rgb(0, 155, 77);
-$color-subtitle-red: rgb(241, 89, 43);
-$text-color-card-description: rgba(43, 41, 45, 0.6);
-$color-information-position: rgba(43, 41, 45, 0.6);
-$color-subtitle-blue: rgb(1, 137, 209);
-$color-link: rgb(48, 64, 196);
-$color-blue-feedback: rgb(49, 66, 198);
 
 $box-shadow-inbox-comment: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
   inset 0px 1px 0px rgba(255, 255, 255, 0.1);
