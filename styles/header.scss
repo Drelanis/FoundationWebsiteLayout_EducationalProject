@@ -25,7 +25,6 @@
       flex-direction: column;
       margin-left: auto;
       border-left: 1px solid $black;
-      opacity: 0.15;
       width: 58px;
       .header__menu_navigation-icon {
         margin: auto;
@@ -33,7 +32,6 @@
           width: 18px;
           height: 2.17px;
           background-color: $black-first-shade;
-          opacity: 0.6;
         }
         .navigation-icon-line:not(:first-child) {
           margin-top: 3.25px;
