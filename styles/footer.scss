@@ -1,1 +1,94 @@
 @import 'variables.scss';
+
+.footer {
+  padding: 40px 0 22px;
+  &__logo {
+    display: flex;
+    flex-direction: column;
+    &_icon {
+      margin: auto;
+      max-width: 100%;
+    }
+    &_name {
+      display: block;
+      margin: 20px 0 0;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      color: $text-color;
+    }
+    &_about {
+      display: block;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 25px;
+      text-align: center;
+      color: $text-color-card-description;
+    }
+  }
+  &__download {
+    display: flex;
+    &_icon {
+      margin: auto;
+      .footer__download_icon-app-store {
+        margin: 31px 5px 0 30px;
+      }
+      .footer__download_icon-google-play {
+        margin: 31px 29px 0 5px;
+      }
+    }
+  }
+  .bottom-border {
+    margin: 40px 0 0;
+  }
+  &__navigation {
+    padding: 0 15px;
+    margin: 30px 0 0;
+    &_title {
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 28px;
+      color: $text-color;
+      margin: 0;
+    }
+    &_list {
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 30px;
+      color: $text-color-card-description;
+      margin: 18px 0 0;
+      .footer__navigation_list-item {
+        margin: 0;
+        padding: 0;
+      }
+      .footer__navigation_list-item:not(:first-child) {
+        margin: 6px 0 0;
+      }
+    }
+  }
+  &__document {
+    margin: 30px 0 0 15px;
+    &_item {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      color: $text-color-card-description;
+    }
+    &_item:not(:first-child) {
+      margin-left: 8px;
+    }
+  }
+  &__social {
+    display: flex;
+    margin: 31px 0 0 15px;
+    &_icon {
+      width: 21px;
+      height: 16px;
+      opacity: 0.6;
+    }
+    &_icon:not(:first-child) {
+      margin-left: 20px;
+    }
+  }
+}
