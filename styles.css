@@ -1,7 +1,13 @@
-.header {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .description, .header__headline, .header__menu_navigation, .header {
   display: flex;
   flex-direction: column;
 }
+
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .description, .header__headline, .header__menu_navigation, .header {
+  display: flex;
+  flex-direction: column;
+}
+
 .header__menu {
   display: flex;
   padding-left: 15px;
@@ -11,7 +17,7 @@
   display: flex;
 }
 .header__menu_logo .header__menu_logo-icon {
-  margin: auto;
+  margin: 8px 0;
   max-width: 100%;
 }
 .header__menu_logo .header__menu_logo-text {
@@ -21,8 +27,6 @@
   line-height: 25px;
 }
 .header__menu_navigation {
-  display: flex;
-  flex-direction: column;
   margin-left: auto;
   border-left: 1px solid rgba(0, 0, 0, 0.15);
   width: 58px;
@@ -39,8 +43,6 @@
   margin-top: 3.25px;
 }
 .header__headline {
-  display: flex;
-  flex-direction: column;
   background-color: rgb(243, 198, 189);
 }
 .header__headline_title {
@@ -50,7 +52,6 @@
   font-size: 50px;
   line-height: 50px;
   letter-spacing: -0.3125px;
-  color: rgb(43, 41, 45);
 }
 .header__headline_description {
   padding: 0 15px 0 15px;
@@ -58,7 +59,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  color: rgb(43, 41, 45);
 }
 .header__headline_image .main-image {
   width: 100%;
@@ -78,7 +78,7 @@
 }
 
 .button-learn {
-  margin: 30px 15px 0 15px;
+  margin: 15px 15px 0 15px;
   padding: 0;
   border: none;
   height: 48px;
@@ -89,10 +89,12 @@
   color: rgb(48, 64, 196);
 }
 
-.description {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .description, .header, .header__menu_navigation, .header__headline {
   display: flex;
   flex-direction: column;
-  color: rgb(43, 41, 45);
+}
+
+.description {
   background-color: rgb(244, 245, 247);
   font-size: 22px;
   line-height: 32px;
@@ -106,24 +108,20 @@
   margin: 0;
 }
 .description__about_text {
+  margin-top: 10px;
   font-weight: 400;
   margin-bottom: 0;
 }
-.description__for {
-  margin: 20px 0 0;
+.description__about:nth-child(2) {
+  margin-top: 20px;
 }
-.description__for_title {
-  font-weight: 700;
-  margin: 0;
-}
-.description__for_text {
-  font-weight: 400;
-  margin-bottom: 0;
+
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .header, .header__menu_navigation, .header__headline, .description {
+  display: flex;
+  flex-direction: column;
 }
 
 .logos {
-  display: flex;
-  flex-direction: column;
   align-items: center;
 }
 .logos__line {
@@ -137,24 +135,31 @@
   height: 94px;
   border-bottom: 1px solid rgb(227, 227, 227);
 }
-.logos__line_icon .icon-image-the-new-york-times,
 .logos__line_icon .icon-image-forbes,
 .logos__line_icon .icon-image-mashable,
 .logos__line_icon .icon-image-google {
   filter: brightness(0);
   width: 80%;
 }
+.logos__line_icon .icon-image-wsj {
+  width: 50%;
+}
+.logos__line_icon .icon-image-apple {
+  width: 35%;
+}
+.logos__line_icon .icon-image-the-new-york-times {
+  width: 75%;
+}
 .logos__line_icon:not(:last-child) {
   border-right: 1px solid rgb(227, 227, 227);
 }
 
-.features {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header, .header__menu_navigation, .header__headline, .description, .logos {
   display: flex;
   flex-direction: column;
 }
+
 .features__content {
-  display: flex;
-  flex-direction: column;
   padding: 49px 15px 50px 15px;
 }
 .features__content_subtitle {
@@ -169,7 +174,6 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
-  color: rgb(43, 41, 45);
   margin: 17px 0 0;
 }
 .features__content_text {
@@ -177,7 +181,6 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  color: rgb(43, 41, 45);
 }
 .features__content_card {
   margin: 15px 0 0;
@@ -196,9 +199,12 @@
   background-color: rgb(227, 227, 227);
 }
 
-.inbox {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .header, .header__menu_navigation, .header__headline, .description, .logos, .features, .features__content {
   display: flex;
   flex-direction: column;
+}
+
+.inbox {
   background-color: rgb(252, 240, 227);
   padding: 0 15px 50px;
 }
@@ -207,8 +213,6 @@
   width: 290px;
 }
 .inbox__description {
-  display: flex;
-  flex-direction: column;
   margin-top: 30px;
 }
 .inbox__description_subtitle {
@@ -224,18 +228,14 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
-  color: rgb(43, 41, 45);
 }
 .inbox__description_text {
   margin: 18px 0 0;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  color: rgb(43, 41, 45);
 }
 .inbox__comment {
-  display: flex;
-  flex-direction: column;
   padding: 30px 20px 30px;
   margin-top: 30px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #ffffff;
@@ -247,7 +247,6 @@
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
-  color: rgb(43, 41, 45);
 }
 .inbox__comment_autor {
   display: flex;
@@ -258,20 +257,22 @@
   height: 90%;
 }
 .inbox__comment_autor .inbox__comment_autor-information {
-  display: flex;
-  flex-direction: column;
   font-size: 16px;
   line-height: 22px;
 }
 .inbox__comment_autor .inbox__comment_autor-information .inbox__comment_autor-information-name {
   margin: 0;
   font-weight: 700;
-  color: rgb(43, 41, 45);
 }
 .inbox__comment_autor .inbox__comment_autor-information .inbox__comment_autor-information-position {
   margin: 0;
   font-weight: 400;
   color: rgba(43, 41, 45, 0.6);
+}
+
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_navigation, .header__headline, .description, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information {
+  display: flex;
+  flex-direction: column;
 }
 
 .commucate {
@@ -290,15 +291,12 @@
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
-  letter-spacing: -0.357143px;
-  color: rgb(43, 41, 45);
 }
 .commucate__description_text {
   margin: 18px 0 0;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  color: rgb(43, 41, 45);
 }
 .commucate .button-started {
   width: 160px;
@@ -325,7 +323,6 @@
   margin: 0;
   font-size: 18px;
   line-height: 26px;
-  color: rgb(43, 41, 45);
 }
 .commucate .communicate__possibilities .communicate__possibilities_item-link {
   margin-bottom: 0;
@@ -335,22 +332,20 @@
   color: rgb(48, 64, 196);
 }
 
-.audience {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_navigation, .header__headline, .description, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information {
   display: flex;
   flex-direction: column;
+}
+
+.audience {
   padding: 50px 15px;
   background-color: rgba(0, 161, 198, 0.07);
-}
-.audience__description {
-  display: flex;
-  flex-direction: column;
 }
 .audience__description_subtitle {
   margin: 0;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
-  color: rgb(43, 41, 45);
 }
 .audience__description_title {
   margin: 17px 0 0;
@@ -358,14 +353,12 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
-  color: rgb(43, 41, 45);
 }
 .audience__description_text {
   margin: 18px 0 0;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  color: rgb(43, 41, 45);
 }
 .audience .button-started {
   margin: 30px 0 0;
@@ -377,8 +370,6 @@
   margin: 40px 0 0;
 }
 .audience__categories_item {
-  display: flex;
-  flex-direction: column;
   width: 290px;
   height: 300px;
   border-radius: 8px;
@@ -398,7 +389,6 @@
   font-size: 22px;
   line-height: 28px;
   text-align: center;
-  color: rgb(43, 41, 45);
 }
 .audience__categories_item:hover {
   cursor: pointer;
@@ -408,9 +398,12 @@
   color: rgb(242, 242, 242);
 }
 
-.feedback {
+.flex-column, .footer__logo, .feedback, .header, .header__menu_navigation, .header__headline, .description, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item {
   display: flex;
   flex-direction: column;
+}
+
+.feedback {
   padding: 39px 15px 50px;
 }
 .feedback__about {
@@ -425,13 +418,11 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  color: rgb(43, 41, 45);
 }
 .feedback__user {
   margin: 32px 0 0;
   font-size: 16px;
   line-height: 24px;
-  color: rgb(43, 41, 45);
 }
 .feedback__user_name {
   font-weight: 700;
@@ -457,7 +448,6 @@
 }
 .feedback__scroll_circle:not(:first-child) {
   margin-left: 19.5px;
-  background-color: rgb(43, 41, 45);
   opacity: 0.2;
 }
 .feedback__image {
@@ -472,6 +462,11 @@
   background-color: rgb(227, 227, 227);
 }
 
+.flex-column, .footer__logo, .header, .header__menu_navigation, .header__headline, .description, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+  display: flex;
+  flex-direction: column;
+}
+
 .hiring {
   padding: 50px 15px;
 }
@@ -480,14 +475,12 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
-  color: rgb(43, 41, 45);
   text-align: center;
 }
 .hiring__description_text {
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
-  color: rgb(43, 41, 45);
   text-align: center;
 }
 .hiring .button-started {
@@ -509,14 +502,12 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  color: rgb(43, 41, 45);
 }
 .hiring__jobs_vacancy .hiring__jobs_vacancy-description .hiring__jobs_vacancy-description-time {
   margin: 7px 21px 0 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
-  color: rgb(43, 41, 45);
   opacity: 0.6;
 }
 .hiring__jobs_vacancy .hiring__jobs_vacancy-arrow {
@@ -533,6 +524,11 @@
   width: 12px;
   height: 7px;
   rotate: -90deg;
+}
+
+.flex-column, .footer__logo, .header, .header__menu_navigation, .header__headline, .description, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+  display: flex;
+  flex-direction: column;
 }
 
 .order {
@@ -583,12 +579,13 @@
   color: rgba(43, 41, 45, 0.6);
 }
 
-.footer {
-  padding: 40px 0 22px;
-}
-.footer__logo {
+.flex-column, .footer__logo, .header, .header__menu_navigation, .header__headline, .description, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
   display: flex;
   flex-direction: column;
+}
+
+.footer {
+  padding: 40px 0 22px;
 }
 .footer__logo_icon {
   margin: auto;
@@ -601,7 +598,6 @@
   font-size: 20px;
   line-height: 25px;
   text-align: center;
-  color: rgb(43, 41, 45);
 }
 .footer__logo_about {
   display: block;
@@ -634,7 +630,6 @@
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
-  color: rgb(43, 41, 45);
   margin: 0;
 }
 .footer__navigation_list {

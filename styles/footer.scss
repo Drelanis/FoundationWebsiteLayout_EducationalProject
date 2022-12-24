@@ -3,8 +3,7 @@
 .footer {
   padding: 40px 0 22px;
   &__logo {
-    display: flex;
-    flex-direction: column;
+    @extend .flex-column;
     &_icon {
       margin: auto;
       max-width: 100%;
@@ -16,7 +15,6 @@
       font-size: 20px;
       line-height: 25px;
       text-align: center;
-      color: $main-text-color;
     }
     &_about {
       display: block;
@@ -49,7 +47,7 @@
       font-weight: 700;
       font-size: 22px;
       line-height: 28px;
-      color: $main-text-color;
+
       margin: 0;
     }
     &_list {

@@ -1,9 +1,7 @@
 @import 'variables.scss';
 
 .description {
-  display: flex;
-  flex-direction: column;
-  color: $main-text-color;
+  @extend .flex-column;
   background-color: $white-first-shade;
   font-size: 22px;
   line-height: 32px;
@@ -15,19 +13,12 @@
       margin: 0;
     }
     &_text {
+      margin-top: 10px;
       font-weight: 400;
       margin-bottom: 0;
     }
   }
-  &__for {
-    margin: 20px 0 0;
-    &_title {
-      font-weight: 700;
-      margin: 0;
-    }
-    &_text {
-      font-weight: 400;
-      margin-bottom: 0;
-    }
+  &__about:nth-child(2) {
+    margin-top: 20px;
   }
 }

@@ -1,8 +1,7 @@
 @import 'variables.scss';
 
 .inbox {
-  display: flex;
-  flex-direction: column;
+  @extend .flex-column;
   background-color: $white-second-shade;
   padding: 0 15px 50px;
   &__picture {
@@ -10,8 +9,7 @@
     width: 290px;
   }
   &__description {
-    display: flex;
-    flex-direction: column;
+    @extend .flex-column;
     margin-top: 30px;
     &_subtitle {
       margin: 0;
@@ -26,19 +24,16 @@
       font-size: 40px;
       line-height: 40px;
       letter-spacing: -0.357143px;
-      color: $main-text-color;
     }
     &_text {
       margin: 18px 0 0;
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
-      color: $main-text-color;
     }
   }
   &__comment {
-    display: flex;
-    flex-direction: column;
+    @extend .flex-column;
     padding: 30px 20px 30px;
     margin-top: 30px;
     background: $gradient-black-white;
@@ -49,7 +44,6 @@
       font-weight: 400;
       font-size: 20px;
       line-height: 28px;
-      color: $main-text-color;
     }
     &_autor {
       display: flex;
@@ -59,14 +53,12 @@
         height: 90%;
       }
       .inbox__comment_autor-information {
-        display: flex;
-        flex-direction: column;
+        @extend .flex-column;
         font-size: 16px;
         line-height: 22px;
         .inbox__comment_autor-information-name {
           margin: 0;
           font-weight: 700;
-          color: $main-text-color;
         }
         .inbox__comment_autor-information-position {
           margin: 0;

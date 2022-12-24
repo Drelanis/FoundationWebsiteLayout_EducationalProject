@@ -1,8 +1,7 @@
 @import 'variables';
 
 .header {
-  display: flex;
-  flex-direction: column;
+  @extend .flex-column;
   &__menu {
     display: flex;
     padding-left: 15px;
@@ -10,7 +9,7 @@
     &_logo {
       display: flex;
       .header__menu_logo-icon {
-        margin: auto;
+        margin: 8px 0;
         max-width: 100%;
       }
       .header__menu_logo-text {
@@ -21,8 +20,7 @@
       }
     }
     &_navigation {
-      display: flex;
-      flex-direction: column;
+      @extend .flex-column;
       margin-left: auto;
       border-left: 1px solid $black;
       width: 58px;
@@ -40,8 +38,7 @@
     }
   }
   &__headline {
-    display: flex;
-    flex-direction: column;
+    @extend .flex-column;
     background-color: $skin;
     &_title {
       padding: 0 15px 0 15px;
@@ -50,7 +47,6 @@
       font-size: 50px;
       line-height: 50px;
       letter-spacing: -0.3125px;
-      color: $main-text-color;
     }
     &_description {
       padding: 0 15px 0 15px;
@@ -58,7 +54,6 @@
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
-      color: $main-text-color;
     }
     &_image {
       .main-image {
@@ -82,7 +77,7 @@
 }
 
 .button-learn {
-  margin: 30px 15px 0 15px;
+  margin: 15px 15px 0 15px;
   padding: 0;
   border: none;
   height: 48px;

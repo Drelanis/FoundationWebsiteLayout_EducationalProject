@@ -1,8 +1,7 @@
 @import 'variables.scss';
 
 .logos {
-  display: flex;
-  flex-direction: column;
+  @extend .flex-column;
   align-items: center;
   &__line {
     display: flex;
@@ -14,12 +13,20 @@
       height: 94px;
       border-bottom: 1px solid $white;
 
-      .icon-image-the-new-york-times,
       .icon-image-forbes,
       .icon-image-mashable,
       .icon-image-google {
         filter: brightness(0);
         width: 80%;
+      }
+      .icon-image-wsj {
+        width: 50%;
+      }
+      .icon-image-apple {
+        width: 35%;
+      }
+      .icon-image-the-new-york-times {
+        width: 75%;
       }
     }
     &_icon:not(:last-child) {

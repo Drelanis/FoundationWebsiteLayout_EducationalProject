@@ -8,14 +8,14 @@
       font-size: 40px;
       line-height: 40px;
       letter-spacing: -0.357143px;
-      color: $main-text-color;
+
       text-align: center;
     }
     &_text {
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
-      color: $main-text-color;
+
       text-align: center;
     }
   }
@@ -37,14 +37,13 @@
           font-weight: 700;
           font-size: 22px;
           line-height: 28px;
-          color: $main-text-color;
         }
         .hiring__jobs_vacancy-description-time {
           margin: 7px 21px 0 20px;
           font-weight: 400;
           font-size: 16px;
           line-height: 22px;
-          color: $main-text-color;
+
           opacity: 0.6;
         }
       }

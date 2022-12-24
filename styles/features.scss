@@ -1,11 +1,9 @@
 @import 'variables.scss';
 
 .features {
-  display: flex;
-  flex-direction: column;
+  @extend .flex-column;
   &__content {
-    display: flex;
-    flex-direction: column;
+    @extend .flex-column;
     padding: 49px 15px 50px 15px;
     &_subtitle {
       font-weight: 700;
@@ -19,7 +17,6 @@
       font-size: 40px;
       line-height: 40px;
       letter-spacing: -0.357143px;
-      color: $main-text-color;
       margin: 17px 0 0;
     }
     &_text {
@@ -27,7 +24,6 @@
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
-      color: $main-text-color;
     }
     &_card {
       margin: 15px 0 0;
