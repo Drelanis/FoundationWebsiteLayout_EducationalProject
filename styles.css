@@ -159,6 +159,9 @@
   flex-direction: column;
 }
 
+.features {
+  background-color: rgb(242, 242, 242);
+}
 .features__content {
   padding: 49px 15px 50px 15px;
 }
@@ -316,6 +319,10 @@
   text-align: center;
   color: rgba(43, 41, 45, 0.6);
 }
+.commucate .bottom-border {
+  margin: 40px 0 33px 0;
+  width: 150px;
+}
 .commucate .communicate__possibilities_item {
   margin: 33px 0 0 0;
 }
@@ -341,6 +348,9 @@
   padding: 50px 15px;
   background-color: rgba(0, 161, 198, 0.07);
 }
+.audience__description {
+  text-align: center;
+}
 .audience__description_subtitle {
   margin: 0;
   font-weight: 700;
@@ -365,6 +375,7 @@
 }
 .audience .button-learn {
   margin: 12px 0 0;
+  color: rgb(0, 0, 0);
 }
 .audience__categories {
   margin: 40px 0 0;
@@ -404,23 +415,23 @@
 }
 
 .feedback {
-  padding: 39px 15px 50px;
+  padding: 39px 0 0;
 }
 .feedback__about {
-  margin: 39px 0 0;
+  margin: 0 15px;
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
   color: rgb(49, 66, 198);
 }
 .feedback__comment {
-  margin: 29px 0 0;
+  margin: 29px 15px 0;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
 }
 .feedback__user {
-  margin: 32px 0 0;
+  margin: 32px 15px 0;
   font-size: 16px;
   line-height: 24px;
 }
@@ -456,9 +467,9 @@
 }
 
 .bottom-border {
+  margin-top: 50px;
   height: 1px;
   width: 100vw;
-  margin: 50px 0 0;
   background-color: rgb(227, 227, 227);
 }
 
@@ -475,9 +486,11 @@
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
+  margin: 0;
   text-align: center;
 }
 .hiring__description_text {
+  margin: 0;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
@@ -485,7 +498,7 @@
 }
 .hiring .button-started {
   width: 100%;
-  margin: 0;
+  margin: 30px 0 0;
 }
 .hiring__jobs {
   margin: 39px 0 0;
@@ -577,6 +590,9 @@
   font-size: 14px;
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
+}
+.order__footnote a:visited {
+  color: rgb(49, 66, 198);
 }
 
 .flex-column, .footer__logo, .header, .header__menu_navigation, .header__headline, .description, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {

@@ -8,20 +8,20 @@
       font-size: 40px;
       line-height: 40px;
       letter-spacing: -0.357143px;
-
+      margin: 0;
       text-align: center;
     }
     &_text {
+      margin: 0;
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
-
       text-align: center;
     }
   }
   .button-started {
     width: 100%;
-    margin: 0;
+    margin: 30px 0 0;
   }
   &__jobs {
     margin: 39px 0 0;

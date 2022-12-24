@@ -48,4 +48,7 @@
     line-height: 22px;
     color: $main-text-color-opacity-06;
   }
+  &__footnote a:visited {
+    color: $blue-fifth-shade;
+  }
 }

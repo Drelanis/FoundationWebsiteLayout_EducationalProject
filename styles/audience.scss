@@ -6,6 +6,7 @@
   background-color: $black-opacity-007;
   &__description {
     @extend .flex-column;
+    text-align: center;
     &_subtitle {
       margin: 0;
       font-weight: 700;
@@ -31,6 +32,7 @@
   }
   .button-learn {
     margin: 12px 0 0;
+    color: $just-black;
   }
   &__categories {
     margin: 40px 0 0;

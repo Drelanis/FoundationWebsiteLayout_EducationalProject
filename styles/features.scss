@@ -2,6 +2,7 @@
 
 .features {
   @extend .flex-column;
+  background-color: $white-third-shade;
   &__content {
     @extend .flex-column;
     padding: 49px 15px 50px 15px;
