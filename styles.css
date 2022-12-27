@@ -1,4 +1,4 @@
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -25,7 +25,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -52,7 +52,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -79,7 +79,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -314,7 +314,7 @@
   }
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -341,7 +341,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -410,7 +410,34 @@
   }
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .logos, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+  display: flex;
+  flex-direction: column;
+}
+
+.ordinary-button, .button-started, .button-learn, .header__menu .button-started {
+  align-items: center;
+  padding: 0;
+  border: none;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  border-radius: 2px;
+}
+
+.button-started, .header__menu .button-started {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), #3040c4;
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.button-learn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 64, 196);
+}
+
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -438,7 +465,21 @@
 }
 
 .logos {
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 401px) {
+  .logos {
+    flex-direction: row;
+  }
+  .logos .logos__line_icon:not(:first-child) {
+    margin-left: 100px;
+  }
+  .logos .logos__line:last-child .logos__line_icon:first-child {
+    margin-left: 100px;
+  }
 }
 .logos__line {
   display: flex;
@@ -450,6 +491,12 @@
   width: 107px;
   height: 94px;
   border-bottom: 1px solid rgb(227, 227, 227);
+  flex-shrink: 1;
+}
+@media screen and (min-width: 401px) {
+  .logos__line_icon {
+    border: none;
+  }
 }
 .logos__line_icon .icon-image-forbes,
 .logos__line_icon .icon-image-mashable,
@@ -469,8 +516,21 @@
 .logos__line_icon:not(:last-child) {
   border-right: 1px solid rgb(227, 227, 227);
 }
+@media screen and (min-width: 401px) {
+  .logos__line_icon:not(:last-child) {
+    border: none;
+  }
+}
+@media screen and (min-width: 401px) {
+  .logos .logos__line_icon:not(:first-child) {
+    margin-left: 100px;
+  }
+  .logos .logos__line:last-child .logos__line_icon:first-child {
+    margin-left: 100px;
+  }
+}
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .logos {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .features, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -540,7 +600,7 @@
   background-color: rgb(227, 227, 227);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .logos, .features, .features__content {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features, .features__content {
   display: flex;
   flex-direction: column;
 }
@@ -633,7 +693,7 @@
   color: rgba(43, 41, 45, 0.6);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information {
   display: flex;
   flex-direction: column;
 }
@@ -721,7 +781,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information {
   display: flex;
   flex-direction: column;
 }
@@ -813,7 +873,7 @@
   color: rgb(242, 242, 242);
 }
 
-.flex-column, .footer__logo, .feedback, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item {
+.flex-column, .footer__logo, .feedback, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item {
   display: flex;
   flex-direction: column;
 }
@@ -899,7 +959,7 @@
   background-color: rgb(227, 227, 227);
 }
 
-.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
   display: flex;
   flex-direction: column;
 }
@@ -987,7 +1047,7 @@
   rotate: -90deg;
 }
 
-.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
   display: flex;
   flex-direction: column;
 }
@@ -1065,7 +1125,7 @@
   color: rgb(49, 66, 198);
 }
 
-.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .logos, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
   display: flex;
   flex-direction: column;
 }

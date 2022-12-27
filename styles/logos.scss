@@ -1,8 +1,20 @@
 @import 'variables.scss';
+@import 'breakpoints';
 
 .logos {
-  @extend .flex-column;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  @include extra-large-screen {
+    flex-direction: row;
+    .logos__line_icon:not(:first-child) {
+      margin-left: 100px;
+    }
+    .logos__line:last-child .logos__line_icon:first-child {
+      margin-left: 100px;
+    }
+  }
   &__line {
     display: flex;
     &_icon {
@@ -12,7 +24,10 @@
       width: 107px;
       height: 94px;
       border-bottom: 1px solid $white;
-
+      flex-shrink: 1;
+      @include extra-large-screen {
+        border: none;
+      }
       .icon-image-forbes,
       .icon-image-mashable,
       .icon-image-google {
@@ -31,6 +46,17 @@
     }
     &_icon:not(:last-child) {
       border-right: 1px solid $white;
+      @include extra-large-screen {
+        border: none;
+      }
+    }
+  }
+  @include extra-large-screen {
+    .logos__line_icon:not(:first-child) {
+      margin-left: 100px;
+    }
+    .logos__line:last-child .logos__line_icon:first-child {
+      margin-left: 100px;
     }
   }
 }
