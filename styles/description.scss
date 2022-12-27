@@ -1,13 +1,24 @@
 @import 'variables.scss';
+@import 'breakpoints.scss';
 
 .description {
-  @extend .flex-column;
+  display: flex;
+  flex-direction: column;
   background-color: $white-first-shade;
   font-size: 22px;
   line-height: 32px;
   padding: 46px 15px 46px;
+  @include extra-large-screen {
+    background-color: $white-first-shade;
+    flex-direction: row;
+    padding: 77px 0 76px 0;
+    justify-content: center;
+  }
   &__about {
     margin: 0;
+    @include extra-large-screen {
+      width: 555px;
+    }
     &_title {
       font-weight: 700;
       margin: 0;
@@ -20,5 +31,8 @@
   }
   &__about:nth-child(2) {
     margin-top: 20px;
+    @include extra-large-screen {
+      margin: 0 0 0 29px;
+    }
   }
 }
