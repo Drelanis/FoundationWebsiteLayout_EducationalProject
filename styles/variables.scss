@@ -1,5 +1,5 @@
-$sm: 320px;
-$xl: 1400;
+$sm: 400px;
+$xl: 1400px;
 
 $main-text-color: rgb(43, 41, 45);
 $main-text-color-opacity-06: rgba(43, 41, 45, 0.6);
@@ -36,6 +36,12 @@ $gradient-black-white: linear-gradient(
     rgba(255, 255, 255, 1e-5) 100%
   ),
   #ffffff;
+$gradient-black-blue: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.05) 0%,
+    rgba(255, 255, 255, 1e-5) 100%
+  ),
+  #3040c4;
 
 $box-shadow-inbox-comment: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
   inset 0px 1px 0px rgba(255, 255, 255, 0.1);
@@ -43,4 +49,28 @@ $box-shadow-inbox-comment: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0
 .flex-column {
   display: flex;
   flex-direction: column;
+}
+
+.ordinary-button {
+  align-items: center;
+  padding: 0;
+  border: none;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  border-radius: 2px;
+}
+
+.button-started {
+  @extend .ordinary-button;
+  background: $gradient-black-blue;
+  color: $white-fourth-shade;
+  box-shadow: $box-shadow-inbox-comment;
+}
+
+.button-learn {
+  @extend .ordinary-button;
+  background-color: $white-fourth-shade;
+  color: $blue-third-shade;
 }

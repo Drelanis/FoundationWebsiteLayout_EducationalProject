@@ -1,4 +1,5 @@
 @import 'variables.scss';
+@import 'breakpoints';
 @import 'header.scss';
 @import 'description.scss';
 @import 'logos.scss';
@@ -18,4 +19,14 @@
 html {
   font-family: 'Work Sans', sans-serif;
   color: $main-text-color;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 1400px;
+  margin: auto;
+  @include small-screen {
+    width: 100vw;
+  }
 }

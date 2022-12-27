@@ -35,31 +35,54 @@
             src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/icon.png"
             alt="company's logo"
           />
-          <div class="header__menu_logo-text">Foundation</div>
+          <div class="header__menu_logo-text">
+            <div class="header__menu_logo-text-name">Foundation</div>
+            <div class="header__menu_logo-text-about">Startup landing template</div>
+          </div>
         </div>
-        <div class="header__menu_navigation">
-          <div class="header__menu_navigation-icon">
+        <div class="header__menu_image">
+          <div class="header__menu_image-icon">
             <div class="navigation-icon-line"></div>
             <div class="navigation-icon-line"></div>
             <div class="navigation-icon-line"></div>
           </div>
         </div>
+        <nav class="header__menu_navigation">
+          <ul class="header__menu_navigation-item">
+            Home
+          </ul>
+          <ul class="header__menu_navigation-item">
+            Stories
+          </ul>
+          <ul class="header__menu_navigation-item">
+            Library
+          </ul>
+        </nav>
+        <div class="header__menu_arrow">
+          <img
+            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/arrow.png"
+            alt="arrow"
+          />
+        </div>
+        <button class="button-started">Get Started</button>
       </div>
       <section class="header__headline">
         <h1 class="header__headline_title">Build stunning websites & apps.</h1>
         <p class="header__headline_description">
           Create live segments and target the right people for messages based on their behaviors.
         </p>
-        <button class="button-started">Get Started</button>
-        <button class="button-learn">Learn More</button>
-        <div class="header__headline_image">
-          <img
-            class="main-image"
-            src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png"
-            alt="thinking man"
-          />
+        <div class="header__headline_buttons">
+          <button class="button-started">Get Started</button>
+          <button class="button-learn">Learn More</button>
         </div>
       </section>
+      <div class="header__image">
+        <img
+          class="main-image"
+          src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/ouch.png"
+          alt="thinking man"
+        />
+      </div>
     </header>
 
     <main>
@@ -479,7 +502,8 @@
         <input class="order__email" type="email" value="Enter your email" />
         <button class="button-started">Get Started</button>
         <div class="order__footnote">
-          Free 14-day trial · Easy setup · Cancel any time. Check out <a href="#"> Terms of Use</a>.
+          Free 14-day trial · Easy setup · Cancel any time. Check out
+          <a href="#"> Terms of Use</a>.
         </div>
       </div>
     </main>
