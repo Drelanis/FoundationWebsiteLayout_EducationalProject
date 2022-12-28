@@ -21,10 +21,9 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      width: 107px;
+      width: 102.5px;
       height: 94px;
       border-bottom: 1px solid $white;
-      flex-shrink: 1;
       @include extra-large-screen {
         border: none;
       }
