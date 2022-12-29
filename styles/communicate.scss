@@ -1,67 +1,103 @@
 @import 'variables.scss';
+@import 'breakpoints';
 
-.commucate {
+.communicate {
   padding: 50px 15px;
   background-color: $white-third-shade;
+  @include extra-large-screen {
+    padding: 123px 130px 110px 128px;
+  }
   &__description {
-    &_subtitle {
-      margin: 0;
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 34px;
-      color: $blue-fourth-shade;
+    @include extra-large-screen {
+      display: flex;
     }
-    &_title {
-      margin: 17px 0 0;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 40px;
+    &_section {
+      @include extra-large-screen {
+        margin-right: 193px;
+      }
+      .communicate__description_section-subtitle {
+        margin: 0;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        color: $blue-fourth-shade;
+      }
+      .communicate__description_section-title {
+        margin: 17px 0 0;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        @include extra-large-screen {
+          width: 462px;
+          font-size: 56px;
+          line-height: 56px;
+        }
+      }
+      .communicate__description_section-text {
+        @include extra-large-screen {
+          width: 461px;
+        }
+        margin: 18px 0 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+      }
+      .button-started {
+        width: 160px;
+        height: 48px;
+        margin: 30px 0 0;
+      }
     }
-    &_text {
-      margin: 18px 0 0;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 34px;
+    &_card {
+      margin: 40px 0 0;
+      @include extra-large-screen {
+        margin: 0;
+      }
+      .communicate__description_card-image {
+        max-width: 100%;
+      }
+      .communicate__description_card-signature {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        text-align: center;
+        color: $main-text-color-opacity-06;
+      }
     }
-  }
-  .button-started {
-    width: 160px;
-    height: 48px;
-    margin: 30px 0 0;
-  }
-  &__card {
-    margin: 40px 0 0;
-    &_image {
-      max-width: 100%;
-    }
-    &_signature {
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px;
-      text-align: center;
-      color: $main-text-color-opacity-06;
-    }
-  }
-  .bottom-border {
-    margin: 40px 0 33px 0;
-    width: 150px;
-  }
-  .communicate__possibilities_item {
-    margin: 33px 0 0 0;
   }
 
-  .communicate__possibilities {
-    .communicate__possibilities_item-text {
-      margin: 0;
-      font-size: 18px;
-      line-height: 26px;
+  .bottom-border {
+    margin-top: 40px;
+    width: 150px;
+  }
+
+  &__possibilities {
+    @include extra-large-screen {
+      display: flex;
     }
-    .communicate__possibilities_item-link {
-      margin-bottom: 0;
-      color: $blue-third-shade;
+    &_item {
+      margin-top: 33px;
+      @include extra-large-screen {
+        width: 360px;
+        margin-top: 41px;
+      }
+      .communicate__possibilities_item-text {
+        margin: 0;
+        font-size: 18px;
+        line-height: 26px;
+      }
+      .communicate__possibilities_item-link {
+        margin-bottom: 0;
+        color: $blue-third-shade;
+      }
+      .communicate__possibilities_item-link a:visited {
+        color: $blue-third-shade;
+      }
     }
-    .communicate__possibilities_item-link a:visited {
-      color: $blue-third-shade;
+    &_item:not(:first-child) {
+      @include extra-large-screen {
+        margin-left: 30px;
+      }
     }
   }
 }

@@ -57,6 +57,9 @@
 .bottom-border {
   margin-top: 50px;
   height: 1px;
-  width: 1400px;
+  width: 100vw;
   background-color: $white;
+  @include extra-large-screen {
+    width: 1400px;
+  }
 }
