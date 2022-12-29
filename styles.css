@@ -1,4 +1,4 @@
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -25,7 +25,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -52,7 +52,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -79,7 +79,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -314,7 +314,7 @@
   }
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -341,7 +341,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -410,7 +410,7 @@
   }
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -437,7 +437,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -529,7 +529,7 @@
   }
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -556,7 +556,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -633,7 +633,7 @@
   background-color: rgb(227, 227, 227);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
   display: flex;
   flex-direction: column;
 }
@@ -660,7 +660,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
   display: flex;
   flex-direction: column;
 }
@@ -771,7 +771,34 @@
   background-repeat: no-repeat;
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__comment_autor .inbox__comment_autor-information, .inbox__comment, .inbox__description, .inbox, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.ordinary-button, .button-started, .button-learn, .header__menu .button-started {
+  align-items: center;
+  padding: 0;
+  border: none;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  border-radius: 2px;
+}
+
+.button-started, .header__menu .button-started {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.button-learn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 64, 196);
+}
+
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
   display: flex;
   flex-direction: column;
 }
@@ -799,72 +826,114 @@
 }
 
 .inbox {
+  display: flex;
+  flex-direction: column;
   background-color: rgb(252, 240, 227);
   padding: 0 15px 50px;
 }
+@media screen and (min-width: 401px) {
+  .inbox {
+    flex-direction: row;
+    padding: 0 99px 116px 193px;
+  }
+}
 .inbox__picture {
-  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+@media screen and (min-width: 401px) {
+  .inbox__picture {
+    margin: 142px 192px 0 0;
+  }
+}
+.inbox__picture_image {
+  margin: 50px auto 0;
   width: 290px;
 }
-.inbox__description {
+@media screen and (min-width: 401px) {
+  .inbox__picture_image {
+    margin: 0;
+    width: 425px;
+  }
+}
+.inbox__picture_description {
+  margin: 15px 0 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  color: rgba(43, 41, 45, 0.6);
+}
+@media screen and (max-width: 401px) {
+  .inbox__picture_description {
+    display: none;
+  }
+}
+.inbox__description_about {
   margin-top: 30px;
 }
-.inbox__description_subtitle {
+@media screen and (min-width: 401px) {
+  .inbox__description_about {
+    margin-top: 115px;
+  }
+}
+.inbox__description_about .inbox__description_about-subtitle {
   margin: 0;
   font-weight: 700;
   font-size: 22px;
   line-height: 34px;
   color: rgb(241, 89, 43);
 }
-.inbox__description_title {
+.inbox__description_about .inbox__description_about-title {
   margin: 17px 0 0;
   font-weight: 700;
   font-size: 40px;
   line-height: 40px;
   letter-spacing: -0.357143px;
 }
-.inbox__description_text {
+.inbox__description_about .inbox__description_about-text {
   margin: 18px 0 0;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
 }
-.inbox__comment {
+.inbox__description_comment {
   padding: 30px 20px 30px;
   margin-top: 30px;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-bottom: 4px solid rgb(1, 133, 208);
 }
-.inbox__comment_text {
+.inbox__description_comment .inbox__description_comment-text {
   margin: 0;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
 }
-.inbox__comment_autor {
+.inbox__description_comment .inbox__description_comment-autor {
   display: flex;
   margin-top: 28px;
 }
-.inbox__comment_autor .inbox__comment_autor-icon {
+.inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-icon {
   margin: 0 11px 0 0;
   height: 90%;
 }
-.inbox__comment_autor .inbox__comment_autor-information {
+.inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
   font-size: 16px;
   line-height: 22px;
 }
-.inbox__comment_autor .inbox__comment_autor-information .inbox__comment_autor-information-name {
+.inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information .inbox__description_comment-autor-information-name {
   margin: 0;
   font-weight: 700;
 }
-.inbox__comment_autor .inbox__comment_autor-information .inbox__comment_autor-information-position {
+.inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information .inbox__description_comment-autor-information-position {
   margin: 0;
   font-weight: 400;
   color: rgba(43, 41, 45, 0.6);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
   display: flex;
   flex-direction: column;
 }
@@ -952,7 +1021,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information {
+.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
   display: flex;
   flex-direction: column;
 }
@@ -1044,7 +1113,7 @@
   color: rgb(242, 242, 242);
 }
 
-.flex-column, .footer__logo, .feedback, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item {
+.flex-column, .footer__logo, .feedback, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item {
   display: flex;
   flex-direction: column;
 }
@@ -1126,11 +1195,11 @@
 .bottom-border {
   margin-top: 50px;
   height: 1px;
-  width: 100vw;
+  width: 1400px;
   background-color: rgb(227, 227, 227);
 }
 
-.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
   display: flex;
   flex-direction: column;
 }
@@ -1218,7 +1287,7 @@
   rotate: -90deg;
 }
 
-.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
   display: flex;
   flex-direction: column;
 }
@@ -1296,7 +1365,7 @@
   color: rgb(49, 66, 198);
 }
 
-.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox, .inbox__description, .inbox__comment, .inbox__comment_autor .inbox__comment_autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
   display: flex;
   flex-direction: column;
 }

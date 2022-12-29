@@ -1,69 +1,103 @@
 @import 'variables.scss';
+@import 'breakpoints';
 
 .inbox {
-  @extend .flex-column;
+  display: flex;
+  flex-direction: column;
   background-color: $white-second-shade;
   padding: 0 15px 50px;
+  @include extra-large-screen {
+    flex-direction: row;
+    padding: 0 99px 116px 193px;
+  }
   &__picture {
-    margin-top: 50px;
-    width: 290px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    @include extra-large-screen {
+      margin: 142px 192px 0 0;
+    }
+    &_image {
+      margin: 50px auto 0;
+      width: 290px;
+      @include extra-large-screen {
+        margin: 0;
+        width: 425px;
+      }
+    }
+    &_description {
+      margin: 15px 0 0;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 22px;
+      text-align: center;
+      color: $main-text-color-opacity-06;
+      @include small-screen {
+        display: none;
+      }
+    }
   }
   &__description {
-    @extend .flex-column;
-    margin-top: 30px;
-    &_subtitle {
-      margin: 0;
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 34px;
-      color: $red;
-    }
-    &_title {
-      margin: 17px 0 0;
-      font-weight: 700;
-      font-size: 40px;
-      line-height: 40px;
-      letter-spacing: -0.357143px;
-    }
-    &_text {
-      margin: 18px 0 0;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 34px;
-    }
-  }
-  &__comment {
-    @extend .flex-column;
-    padding: 30px 20px 30px;
-    margin-top: 30px;
-    background: $gradient-black-white;
-    box-shadow: $box-shadow-inbox-comment;
-    border-bottom: 4px solid $blue-first-shade;
-    &_text {
-      margin: 0;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 28px;
-    }
-    &_autor {
-      display: flex;
-      margin-top: 28px;
-      .inbox__comment_autor-icon {
-        margin: 0 11px 0 0;
-        height: 90%;
+    &_about {
+      @extend .flex-column;
+      margin-top: 30px;
+      @include extra-large-screen {
+        margin-top: 115px;
       }
-      .inbox__comment_autor-information {
-        @extend .flex-column;
-        font-size: 16px;
-        line-height: 22px;
-        .inbox__comment_autor-information-name {
-          margin: 0;
-          font-weight: 700;
+      .inbox__description_about-subtitle {
+        margin: 0;
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 34px;
+        color: $red;
+      }
+      .inbox__description_about-title {
+        margin: 17px 0 0;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -0.357143px;
+      }
+      .inbox__description_about-text {
+        margin: 18px 0 0;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 34px;
+      }
+    }
+    &_comment {
+      @extend .flex-column;
+      padding: 30px 20px 30px;
+      margin-top: 30px;
+      background: $gradient-black-white;
+      box-shadow: $box-shadow-inbox-comment;
+      border-bottom: 4px solid $blue-first-shade;
+      .inbox__description_comment-text {
+        margin: 0;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 28px;
+      }
+      .inbox__description_comment-autor {
+        display: flex;
+        margin-top: 28px;
+        .inbox__description_comment-autor-icon {
+          margin: 0 11px 0 0;
+          height: 90%;
         }
-        .inbox__comment_autor-information-position {
-          margin: 0;
-          font-weight: 400;
-          color: $main-text-color-opacity-06;
+        .inbox__description_comment-autor-information {
+          @extend .flex-column;
+          font-size: 16px;
+          line-height: 22px;
+          .inbox__description_comment-autor-information-name {
+            margin: 0;
+            font-weight: 700;
+          }
+          .inbox__description_comment-autor-information-position {
+            margin: 0;
+            font-weight: 400;
+            color: $main-text-color-opacity-06;
+          }
         }
       }
     }
