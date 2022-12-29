@@ -1,4 +1,5 @@
 @import 'variables.scss';
+@import 'breakpoints.scss';
 
 .audience {
   @extend .flex-column;
@@ -7,6 +8,10 @@
   &__description {
     @extend .flex-column;
     text-align: center;
+    @include extra-large-screen {
+      width: 555px;
+      margin: auto;
+    }
     &_subtitle {
       margin: 0;
       font-weight: 700;
@@ -19,6 +24,11 @@
       font-size: 40px;
       line-height: 40px;
       letter-spacing: -0.357143px;
+      @include extra-large-screen {
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+      }
     }
     &_text {
       margin: 18px 0 0;
@@ -27,15 +37,35 @@
       line-height: 34px;
     }
   }
-  .button-started {
-    margin: 30px 0 0;
-  }
-  .button-learn {
-    margin: 12px 0 0;
-    color: $just-black;
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    @include extra-large-screen {
+      flex-direction: row;
+      margin: 34px auto 0;
+    }
+    .button-started {
+      margin: 30px 0 0;
+      @include extra-large-screen {
+        width: 160px;
+        margin: 0;
+      }
+    }
+    .button-learn {
+      margin: 12px 0 0;
+      color: $just-black;
+      @include extra-large-screen {
+        width: 160px;
+        margin: 0 0 0 10px;
+      }
+    }
   }
   &__categories {
-    margin: 40px 0 0;
+    margin: 40px auto 0;
+    @include extra-large-screen {
+      display: flex;
+      margin-top: 111px;
+    }
     &_item {
       @extend .flex-column;
       width: 290px;
@@ -56,6 +86,11 @@
           line-height: 28px;
           text-align: center;
         }
+      }
+    }
+    &_item:not(:first-child) {
+      @include extra-large-screen {
+        margin-left: 30px;
       }
     }
     &_item:hover {

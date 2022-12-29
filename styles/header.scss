@@ -81,8 +81,7 @@
         padding: 0;
         margin-left: 40px;
       }
-      .header__menu_navigation-item:hover {
-        cursor: pointer;
+      .header__menu_navigation-item:first-child {
         font-weight: 700;
       }
     }
