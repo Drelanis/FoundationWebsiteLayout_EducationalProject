@@ -1287,8 +1287,42 @@
   color: rgb(48, 64, 196);
 }
 
+.flex-column, .footer__logo, .feedback, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item {
+  display: flex;
+  flex-direction: column;
+}
+
+.ordinary-button, .button-started, .button-learn, .header__menu .button-started {
+  align-items: center;
+  padding: 0;
+  border: none;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  border-radius: 2px;
+}
+
+.button-started, .header__menu .button-started {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.button-learn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 64, 196);
+}
+
 .feedback {
   padding: 39px 0 0;
+  position: relative;
+}
+@media screen and (min-width: 401px) {
+  .feedback {
+    text-align: center;
+    padding: 76px 0 0;
+  }
 }
 .feedback__about {
   margin: 0 15px;
@@ -1303,10 +1337,21 @@
   font-size: 24px;
   line-height: 34px;
 }
+@media screen and (min-width: 401px) {
+  .feedback__comment {
+    width: 750px;
+    margin: 28px auto 0;
+  }
+}
 .feedback__user {
   margin: 32px 15px 0;
   font-size: 16px;
   line-height: 24px;
+}
+@media screen and (min-width: 401px) {
+  .feedback__user {
+    margin: 34px 0 0;
+  }
 }
 .feedback__user_name {
   font-weight: 700;
@@ -1324,11 +1369,22 @@
   width: 100%;
   justify-content: center;
 }
+@media screen and (min-width: 401px) {
+  .feedback__scroll {
+    margin-top: 38px;
+  }
+}
 .feedback__scroll_circle {
   width: 12px;
   height: 12px;
   border-radius: 50%;
   background-color: rgb(49, 66, 197);
+}
+@media screen and (min-width: 401px) {
+  .feedback__scroll_circle {
+    width: 8px;
+    height: 8px;
+  }
 }
 .feedback__scroll_circle:not(:first-child) {
   margin-left: 19.5px;
@@ -1337,6 +1393,17 @@
 .feedback__image {
   display: flex;
   margin: 40px auto 0;
+  width: 290px;
+  height: 258px;
+}
+@media screen and (min-width: 401px) {
+  .feedback__image {
+    width: 273px;
+    height: 243px;
+    position: absolute;
+    left: 1101px;
+    top: 152px;
+  }
 }
 
 .bottom-border {
@@ -1348,6 +1415,7 @@
 @media screen and (min-width: 401px) {
   .bottom-border {
     width: 1400px;
+    margin-top: 66px;
   }
 }
 
