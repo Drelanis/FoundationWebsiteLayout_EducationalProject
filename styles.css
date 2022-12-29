@@ -1,4 +1,4 @@
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -25,7 +25,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -52,7 +52,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -79,7 +79,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__headline, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header {
   display: flex;
   flex-direction: column;
 }
@@ -313,7 +313,7 @@
   }
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -340,7 +340,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -409,7 +409,7 @@
   }
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -436,7 +436,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -528,7 +528,7 @@
   }
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -555,7 +555,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline {
   display: flex;
   flex-direction: column;
 }
@@ -632,7 +632,7 @@
   background-color: rgb(227, 227, 227);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
   display: flex;
   flex-direction: column;
 }
@@ -659,7 +659,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
   display: flex;
   flex-direction: column;
 }
@@ -770,7 +770,7 @@
   background-repeat: no-repeat;
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
   display: flex;
   flex-direction: column;
 }
@@ -797,7 +797,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content {
   display: flex;
   flex-direction: column;
 }
@@ -932,7 +932,7 @@
   color: rgba(43, 41, 45, 0.6);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
   display: flex;
   flex-direction: column;
 }
@@ -959,7 +959,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
   display: flex;
   flex-direction: column;
 }
@@ -1095,7 +1095,7 @@
   }
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
   display: flex;
   flex-direction: column;
 }
@@ -1122,7 +1122,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
+.flex-column, .footer__logo, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
   display: flex;
   flex-direction: column;
 }
@@ -1260,7 +1260,7 @@
   color: rgb(242, 242, 242);
 }
 
-.flex-column, .footer__logo, .feedback, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item {
+.flex-column, .footer__logo, .hiring__description, .feedback, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item {
   display: flex;
   flex-direction: column;
 }
@@ -1287,7 +1287,7 @@
   color: rgb(48, 64, 196);
 }
 
-.flex-column, .footer__logo, .feedback, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item {
+.flex-column, .footer__logo, .hiring__description, .feedback, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item {
   display: flex;
   flex-direction: column;
 }
@@ -1419,7 +1419,34 @@
   }
 }
 
-.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+.flex-column, .footer__logo, .hiring__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+  display: flex;
+  flex-direction: column;
+}
+
+.ordinary-button, .button-started, .button-learn, .header__menu .button-started {
+  align-items: center;
+  padding: 0;
+  border: none;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  border-radius: 2px;
+}
+
+.button-started, .header__menu .button-started {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.button-learn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 64, 196);
+}
+
+.flex-column, .footer__logo, .hiring__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
   display: flex;
   flex-direction: column;
 }
@@ -1449,6 +1476,11 @@
 .hiring {
   padding: 50px 15px;
 }
+@media screen and (min-width: 401px) {
+  .hiring {
+    padding: 106px 325px 110px;
+  }
+}
 .hiring__description_title {
   font-weight: 700;
   font-size: 40px;
@@ -1457,19 +1489,33 @@
   margin: 0;
   text-align: center;
 }
+@media screen and (min-width: 401px) {
+  .hiring__description_title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 56px;
+    letter-spacing: -0.5px;
+  }
+}
 .hiring__description_text {
-  margin: 0;
+  margin: 18px 0 0;
   font-weight: 400;
   font-size: 24px;
   line-height: 34px;
   text-align: center;
 }
-.hiring .button-started {
+.hiring__description .button-started {
   width: 100%;
   margin: 30px 0 0;
 }
+@media screen and (min-width: 401px) {
+  .hiring__description .button-started {
+    margin: 28px auto 0;
+    width: 247px;
+  }
+}
 .hiring__jobs {
-  margin: 39px 0 0;
+  margin: 37px 0 0;
 }
 .hiring__jobs_vacancy {
   display: flex;
@@ -1478,18 +1524,39 @@
   height: 142px;
   margin: 15px 0 0;
 }
+@media screen and (min-width: 401px) {
+  .hiring__jobs_vacancy {
+    height: 81px;
+  }
+}
+@media screen and (min-width: 401px) {
+  .hiring__jobs_vacancy .hiring__jobs_vacancy-description {
+    display: flex;
+  }
+}
 .hiring__jobs_vacancy .hiring__jobs_vacancy-description .hiring__jobs_vacancy-description-direction {
   margin: 19px 21px 0 20px;
   font-weight: 700;
   font-size: 22px;
   line-height: 28px;
 }
+@media screen and (min-width: 401px) {
+  .hiring__jobs_vacancy .hiring__jobs_vacancy-description .hiring__jobs_vacancy-description-direction {
+    margin: auto 0 auto 25px;
+    width: 408px;
+  }
+}
 .hiring__jobs_vacancy .hiring__jobs_vacancy-description .hiring__jobs_vacancy-description-time {
-  margin: 7px 21px 0 20px;
+  margin: 18px 21px 0 20px;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
   opacity: 0.6;
+}
+@media screen and (min-width: 401px) {
+  .hiring__jobs_vacancy .hiring__jobs_vacancy-description .hiring__jobs_vacancy-description-time {
+    margin: auto 0 auto 20px;
+  }
 }
 .hiring__jobs_vacancy .hiring__jobs_vacancy-arrow {
   display: flex;
@@ -1500,14 +1567,36 @@
   outline: 1px solid rgb(213, 212, 213);
   border-radius: 0px 6px 6px 0px;
 }
+@media screen and (min-width: 401px) {
+  .hiring__jobs_vacancy .hiring__jobs_vacancy-arrow {
+    height: 79px;
+    background-color: transparent;
+    outline: none;
+    border: none;
+  }
+}
 .hiring__jobs_vacancy .hiring__jobs_vacancy-arrow .hiring__jobs_vacancy-arrow-image {
   margin: auto;
   width: 12px;
   height: 7px;
   rotate: -90deg;
 }
+@media screen and (min-width: 401px) {
+  .hiring__jobs_vacancy:hover {
+    background: rgb(49, 65, 197);
+  }
+  .hiring__jobs_vacancy:hover .hiring__jobs_vacancy-description {
+    color: rgb(255, 255, 255);
+  }
+  .hiring__jobs_vacancy:hover .hiring__jobs_vacancy-description .hiring__jobs_vacancy-description-time {
+    opacity: 1;
+  }
+  .hiring__jobs_vacancy:hover .hiring__jobs_vacancy-arrow {
+    filter: brightness(100);
+  }
+}
 
-.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback, .hiring__description {
   display: flex;
   flex-direction: column;
 }
@@ -1585,7 +1674,7 @@
   color: rgb(49, 66, 198);
 }
 
-.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
+.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback, .hiring__description {
   display: flex;
   flex-direction: column;
 }

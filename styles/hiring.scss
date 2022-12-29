@@ -1,8 +1,13 @@
 @import 'variables.scss';
+@import 'breakpoints.scss';
 
 .hiring {
   padding: 50px 15px;
+  @include extra-large-screen {
+    padding: 106px 325px 110px;
+  }
   &__description {
+    @extend .flex-column;
     &_title {
       font-weight: 700;
       font-size: 40px;
@@ -10,40 +15,63 @@
       letter-spacing: -0.357143px;
       margin: 0;
       text-align: center;
+      @include extra-large-screen {
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+      }
     }
     &_text {
-      margin: 0;
+      margin: 18px 0 0;
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
       text-align: center;
     }
-  }
-  .button-started {
-    width: 100%;
-    margin: 30px 0 0;
+    .button-started {
+      width: 100%;
+      margin: 30px 0 0;
+      @include extra-large-screen {
+        margin: 28px auto 0;
+        width: 247px;
+      }
+    }
   }
   &__jobs {
-    margin: 39px 0 0;
+    margin: 37px 0 0;
     &_vacancy {
       display: flex;
       border: 1px solid $black-opacity-02;
       border-radius: 8px;
       height: 142px;
       margin: 15px 0 0;
+      @include extra-large-screen {
+        height: 81px;
+      }
       .hiring__jobs_vacancy-description {
+        @include extra-large-screen {
+          display: flex;
+        }
         .hiring__jobs_vacancy-description-direction {
           margin: 19px 21px 0 20px;
           font-weight: 700;
           font-size: 22px;
           line-height: 28px;
+          @include extra-large-screen {
+            margin: auto 0 auto 25px;
+            width: 408px;
+          }
         }
         .hiring__jobs_vacancy-description-time {
-          margin: 7px 21px 0 20px;
+          margin: 18px 21px 0 20px;
           font-weight: 400;
           font-size: 16px;
           line-height: 22px;
           opacity: 0.6;
+          @include extra-large-screen {
+            margin: auto 0 auto 20px;
+          }
         }
       }
       .hiring__jobs_vacancy-arrow {
@@ -54,11 +82,31 @@
         background-color: $grey;
         outline: 1px solid $grey;
         border-radius: 0px 6px 6px 0px;
+        @include extra-large-screen {
+          height: 79px;
+          background-color: transparent;
+          outline: none;
+          border: none;
+        }
         .hiring__jobs_vacancy-arrow-image {
           margin: auto;
           width: 12px;
           height: 7px;
           rotate: -90deg;
+        }
+      }
+    }
+    &_vacancy:hover {
+      @include extra-large-screen {
+        background: $blue-sixth-shade;
+        .hiring__jobs_vacancy-description {
+          color: $white-fourth-shade;
+          .hiring__jobs_vacancy-description-time {
+            opacity: 1;
+          }
+        }
+        .hiring__jobs_vacancy-arrow {
+          filter: brightness(100);
         }
       }
     }
