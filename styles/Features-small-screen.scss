@@ -1,8 +1,13 @@
 @import 'variables.scss';
+@import 'breakpoints.scss';
 
 .features {
-  @extend .flex-column;
+  display: flex;
+  flex-direction: column;
   background-color: $white-third-shade;
+  @include extra-large-screen {
+    display: none;
+  }
   &__content {
     @extend .flex-column;
     padding: 49px 15px 50px 15px;

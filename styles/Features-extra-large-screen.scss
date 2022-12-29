@@ -2,41 +2,89 @@
 @import 'breakpoints';
 
 .features-large {
+  position: relative;
+  padding: 0 0 110px 128px;
+  height: 700px;
+  @include small-screen {
+    display: none;
+  }
   &__description {
     &_subtitle {
       color: $green;
       font-weight: 700;
       font-size: 22px;
       line-height: 34px;
+      margin: 106px 0 0 0;
     }
     &_title {
       font-weight: 700;
       font-size: 56px;
       line-height: 56px;
       letter-spacing: -0.5px;
+      margin: 24px 0 0 0;
+      width: 462px;
     }
     &_text {
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
+      margin: 30px 0 42px 0;
+      width: 461px;
     }
   }
   &__choice {
     .features-large__description_choice-item {
-      display: flex;
-      align-items: center;
-      border-bottom: 1px solid $black;
-      padding: 21px 0 15px;
-      filter: brightness(0);
-      .features-large__description_choice-item-icon {
-        width: 24px;
+      width: 459px;
+      .features-large__description_choice-item-name {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $black;
+        padding: 0 0 22px 0;
+        filter: brightness(0);
+        .features-large__description_choice-item-name-icon {
+          width: 24px;
+        }
+        .features-large__description_choice-item-name-about {
+          margin-left: 15px;
+          font-weight: 700;
+          font-size: 22px;
+          line-height: 26px;
+        }
       }
-      .features-large__description_choice-item-about {
-        margin-left: 15px;
-        font-weight: 700;
-        font-size: 22px;
-        line-height: 26px;
+      .features-large__description_choice-item-name-text {
+        display: none;
       }
     }
+    .features-large__description_choice-item:not(:first-child) {
+      margin: 22px 0 0 0;
+    }
+    .features-large__description_choice-item:first-child:hover {
+      .features-large__description_choice-item-name {
+        cursor: pointer;
+        color: $blue-fifth-shade;
+        filter: brightness(1);
+        border-bottom: none;
+        padding: 0;
+      }
+      .features-large__description_choice-item-name-text {
+        display: block;
+        margin: 8px 0 0 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        border-bottom: 3px solid $blue-fifth-shade;
+        padding: 0 0 17px 0;
+      }
+    }
+  }
+  &__picture {
+    position: absolute;
+    height: 597px;
+    width: 686px;
+    left: 714px;
+    top: 0px;
+    filter: $image-shadow;
+    background: url(https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson24/hw1/invision-screen.png);
+    background-repeat: no-repeat;
   }
 }
