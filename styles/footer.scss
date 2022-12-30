@@ -88,7 +88,7 @@
       }
     }
     &_border {
-      width: 1400px;
+      width: 100%;
       height: 1px;
       background: $main-text-color;
       opacity: 0.1;
@@ -126,7 +126,9 @@
       }
     }
     #footer__description_navigation-second {
-      margin-left: 82px;
+      @include extra-large-screen {
+        margin-left: 82px;
+      }
     }
   }
   &__border-large {
@@ -135,6 +137,9 @@
     background: $main-text-color;
     opacity: 0.1;
     margin: 59px 0 0;
+    @include small-screen {
+      display: none;
+    }
   }
   &__document {
     @include extra-large-screen {
