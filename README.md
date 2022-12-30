@@ -6,10 +6,10 @@
 
 The tech stack is:
 
-<li>
-<ul>HTML5</ul>
-<ul>CSS3</ul>
-<ul>Flexbox</ul>
-<ul>Sass (Scss)</ul>
-<ul>BEM methodology</ul>
-</li>
+<ul>
+<li>HTML5</li>
+<li>CSS3</li>
+<li>Flexbox</li>
+<li>Sass (Scss)</li>
+<li>BEM methodology</li>
+</ul>
