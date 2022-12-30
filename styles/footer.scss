@@ -2,91 +2,169 @@
 
 .footer {
   padding: 40px 0 22px;
-  &__logo {
-    @extend .flex-column;
-    &_icon {
-      margin: auto;
-      max-width: 100%;
-    }
-    &_name {
-      display: block;
-      margin: 20px 0 0;
-      font-weight: 700;
-      font-size: 20px;
-      line-height: 25px;
-      text-align: center;
+  @include extra-large-screen {
+    display: flex;
+    flex-direction: column;
+    padding: 44px 0 15px 0;
+  }
+  &__description {
+    @include extra-large-screen {
+      display: flex;
     }
     &_about {
-      display: block;
-      font-weight: 400;
-      font-size: 20px;
-      line-height: 25px;
-      text-align: center;
-      color: $main-text-color-opacity-06;
-    }
-  }
-  &__download {
-    display: flex;
-    &_icon {
-      margin: auto;
-      .footer__download_icon-app-store {
-        margin: 31px 5px 0 30px;
+      @include extra-large-screen {
+        margin-left: 130px;
       }
-      .footer__download_icon-google-play {
-        margin: 31px 29px 0 5px;
+      .footer__description_about-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        @include extra-large-screen {
+          flex-direction: row;
+        }
+        .footer__description_about-logo-image {
+          max-width: 100%;
+        }
+        .footer__description_about-logo-name {
+          @include extra-large-screen {
+            margin-left: 15px;
+          }
+          .footer__description_about-logo-name-title {
+            display: block;
+            margin: 20px 0 0;
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 25px;
+            text-align: center;
+            @include extra-large-screen {
+              text-align: left;
+              margin: 0;
+            }
+          }
+          .footer__description_about-logo-name-about {
+            display: block;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 25px;
+            text-align: center;
+            color: $main-text-color-opacity-06;
+            @include extra-large-screen {
+              font-size: 18px;
+            }
+          }
+        }
+      }
+      .footer__description_about-text {
+        width: 360px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 26px;
+        color: $main-text-color-opacity-06;
+        margin: 26px 0 0 0;
+        @include small-screen {
+          display: none;
+        }
+      }
+      .footer__description_about-download {
+        display: flex;
+        .footer__description_about-download-icon {
+          margin: auto;
+          @include extra-large-screen {
+            margin: 25px 0 0;
+          }
+          .footer__description_about-download-icon-app-store {
+            margin: 31px 5px 0 30px;
+            @include extra-large-screen {
+              margin: 0;
+            }
+          }
+          .footer__description_about-download-icon-google-play {
+            margin: 31px 29px 0 5px;
+            @include extra-large-screen {
+              margin: 0 0 0 10px;
+            }
+          }
+        }
       }
     }
-  }
-  .bottom-border {
-    margin: 40px 0 0;
-  }
-  &__navigation {
-    padding: 0 15px;
-    margin: 30px 0 0;
-    &_title {
-      font-weight: 700;
-      font-size: 22px;
-      line-height: 28px;
-
-      margin: 0;
+    &_border {
+      width: 1400px;
+      height: 1px;
+      background: $main-text-color;
+      opacity: 0.1;
+      margin: 40px 0 0;
+      @include extra-large-screen {
+        display: none;
+      }
     }
-    &_list {
-      font-weight: 400;
-      font-size: 18px;
-      line-height: 30px;
-      color: $main-text-color-opacity-06;
-      margin: 18px 0 0;
-      .footer__navigation_list-item {
-        margin: 0;
+    &_navigation {
+      padding: 0 15px;
+      margin: 30px 0 0;
+      @include extra-large-screen {
+        margin: 17px 0 0 126px;
         padding: 0;
       }
-      .footer__navigation_list-item:not(:first-child) {
-        margin: 6px 0 0;
+      .footer__description_navigation-title {
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 28px;
+        margin: 0;
+      }
+      .footer__description_navigation-list {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: $main-text-color-opacity-06;
+        margin: 18px 0 0;
+        .footer__description_navigation-list-item {
+          margin: 0;
+          padding: 0;
+        }
+        .footer__description_navigation-list-item:not(:first-child) {
+          margin: 6px 0 0;
+        }
       }
     }
+    #footer__description_navigation-second {
+      margin-left: 82px;
+    }
+  }
+  &__border-large {
+    width: 1400px;
+    height: 1px;
+    background: $main-text-color;
+    opacity: 0.1;
+    margin: 59px 0 0;
   }
   &__document {
-    margin: 30px 0 0 15px;
-    &_item {
-      font-weight: 400;
-      font-size: 14px;
-      line-height: 22px;
-      color: $main-text-color-opacity-06;
+    @include extra-large-screen {
+      display: flex;
+      justify-content: space-between;
+      padding: 13px 132px 0 130px;
     }
-    &_item:not(:first-child) {
-      margin-left: 8px;
+    &_license {
+      margin: 30px 0 0 15px;
+      .footer__document_license-item {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 22px;
+        color: $main-text-color-opacity-06;
+      }
+      .footer__document_license-item:not(:first-child) {
+        margin-left: 8px;
+      }
     }
-  }
-  &__social {
-    display: flex;
-    margin: 31px 0 0 15px;
-    &_icon {
-      width: 21px;
-      height: 16px;
-      opacity: 0.6;
-    }
-    &_icon:not(:first-child) {
-      margin-left: 20px;
+    &_social {
+      display: flex;
+      margin: 31px 0 0 15px;
+      .footer__document_social-icon {
+        width: 21px;
+        height: 16px;
+        opacity: 0.6;
+      }
+      .footer__document_social-icon:not(:first-child) {
+        margin-left: 20px;
+      }
     }
   }
 }
