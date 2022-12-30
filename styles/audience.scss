@@ -5,6 +5,9 @@
   @extend .flex-column;
   padding: 50px 15px;
   background-color: $black-opacity-007;
+  @include extra-large-screen {
+    padding: 108px 131px 110px 130px;
+  }
   &__description {
     @extend .flex-column;
     text-align: center;
@@ -71,16 +74,22 @@
       width: 290px;
       height: 300px;
       border-radius: 8px;
-      margin: 15px 0 0;
       background: $gradient-black-white;
       box-shadow: $box-shadow-inbox-comment;
+      @include extra-large-screen {
+        width: 262px;
+        height: 300px;
+      }
       .audience__categories_item-content {
-        margin: auto;
+        margin: 22px 76px 33px 76px;
+        @include extra-large-screen {
+          margin: 22px 62px 33px 62px;
+        }
         .audience__categories_item-image {
-          max-width: 100%;
+          height: 195px;
         }
         .audience__categories_item-text {
-          margin: 22px 0 33px;
+          margin: 22px 0 0 0;
           font-weight: 700;
           font-size: 22px;
           line-height: 28px;
@@ -89,8 +98,9 @@
       }
     }
     &_item:not(:first-child) {
+      margin: 15px 0 0;
       @include extra-large-screen {
-        margin-left: 30px;
+        margin: 0 0 0 30px;
       }
     }
     &_item:hover {
