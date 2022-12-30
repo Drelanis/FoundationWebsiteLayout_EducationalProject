@@ -1,3 +1,4 @@
+@import 'headline.scss';
 @import 'variables.scss';
 @import 'breakpoints';
 @import 'header.scss';
@@ -30,4 +31,5 @@ body {
   @include small-screen {
     width: 100vw;
   }
+  position: relative;
 }

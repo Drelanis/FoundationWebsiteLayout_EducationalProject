@@ -4,9 +4,8 @@
 .header {
   @extend .flex-column;
   background-color: $skin;
-  position: relative;
   @include extra-large-screen {
-    padding: 31px 0 77px;
+    padding: 31px 0 0;
   }
   &__menu {
     display: flex;
@@ -24,7 +23,7 @@
         margin: 0;
       }
       .header__menu_logo-icon {
-        margin: 8px 0;
+        margin: 0;
         max-width: 100%;
       }
       .header__menu_logo-text {
@@ -103,81 +102,6 @@
       flex-shrink: 0;
       @include small-screen {
         display: none;
-      }
-    }
-  }
-  &__headline {
-    @extend .flex-column;
-    @include extra-large-screen {
-      position: absolute;
-      top: 177px;
-      left: 126px;
-      z-index: 1;
-    }
-    &_title {
-      padding: 0 15px 0 15px;
-      margin: 35px 0 0 0;
-      font-weight: 700;
-      font-size: 50px;
-      line-height: 50px;
-      letter-spacing: -0.3125px;
-      @include extra-large-screen {
-        width: 754px;
-        margin: 0;
-        font-weight: 700;
-        font-size: 80px;
-        line-height: 78px;
-        letter-spacing: -0.5px;
-        padding: 0;
-      }
-    }
-    &_description {
-      padding: 0 15px 0 15px;
-      margin: 24px 0 0 0;
-      font-weight: 400;
-      font-size: 24px;
-      line-height: 34px;
-      @include extra-large-screen {
-        margin: 34px 0 0;
-        width: 456px;
-        padding: 0;
-      }
-    }
-    &_buttons {
-      display: flex;
-      flex-direction: column;
-      margin: 0 15px;
-      @include extra-large-screen {
-        flex-direction: row;
-        margin: 58px 0 0 0;
-      }
-      .button-started {
-        margin-top: 30px;
-        @include extra-large-screen {
-          width: 160px;
-          margin: 0;
-        }
-      }
-      .button-learn {
-        margin-top: 15px;
-        @include extra-large-screen {
-          width: 160px;
-          margin: 0 0 0 10px;
-        }
-      }
-    }
-  }
-  &__image {
-    display: flex;
-    .main-image {
-      width: 100%;
-      @include extra-large-screen {
-        margin: 84px 25px 0 auto;
-        top: 185px;
-        left: 579px;
-        width: 796px;
-        height: 448px;
-        z-index: 0;
       }
     }
   }
