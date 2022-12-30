@@ -28,6 +28,7 @@
       line-height: 40px;
       letter-spacing: -0.357143px;
       @include extra-large-screen {
+        margin: 24px 0 0;
         font-size: 56px;
         line-height: 56px;
         letter-spacing: -0.5px;
@@ -38,6 +39,9 @@
       font-weight: 400;
       font-size: 24px;
       line-height: 34px;
+      @include extra-large-screen {
+        margin: 30px 0 0;
+      }
     }
   }
   &__buttons {
@@ -81,11 +85,10 @@
         height: 300px;
       }
       .audience__categories_item-content {
-        margin: 22px 76px 33px 76px;
-        @include extra-large-screen {
-          margin: 22px 62px 33px 62px;
-        }
+        display: flex;
+        flex-direction: column;
         .audience__categories_item-image {
+          margin: 22px auto 0;
           height: 195px;
         }
         .audience__categories_item-text {
@@ -94,6 +97,11 @@
           font-size: 22px;
           line-height: 28px;
           text-align: center;
+        }
+        #audience__categories_item-image-last {
+          margin: 22px 0 0 77px;
+          width: 119px;
+          height: 195px;
         }
       }
     }
