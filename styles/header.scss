@@ -5,7 +5,7 @@
   @extend .flex-column;
   background-color: $skin;
   @include extra-large-screen {
-    padding: 31px 0 0;
+    padding: 31px 0 77px;
   }
   &__menu {
     display: flex;
@@ -23,7 +23,7 @@
         margin: 0;
       }
       .header__menu_logo-icon {
-        margin: 0;
+        margin: 8px 0;
         max-width: 100%;
       }
       .header__menu_logo-text {

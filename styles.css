@@ -249,7 +249,7 @@
 }
 @media screen and (min-width: 401px) {
   .header {
-    padding: 31px 0 0;
+    padding: 31px 0 77px;
   }
 }
 .header__menu {
@@ -276,7 +276,7 @@
   }
 }
 .header__menu_logo .header__menu_logo-icon {
-  margin: 0;
+  margin: 8px 0;
   max-width: 100%;
 }
 .header__menu_logo .header__menu_logo-text {
