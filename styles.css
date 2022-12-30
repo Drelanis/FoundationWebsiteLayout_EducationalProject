@@ -54,7 +54,6 @@
 
 .headline {
   background-color: rgb(243, 198, 189);
-  padding: 35px 0 0;
 }
 @media screen and (min-width: 401px) {
   .headline__description {
@@ -84,7 +83,7 @@
   }
 }
 .headline__description_about {
-  padding: 0 15px 0 15px;
+  padding: 33px 15px 0 15px;
   margin: 24px 0 0 0;
   font-weight: 400;
   font-size: 24px;

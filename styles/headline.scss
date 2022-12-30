@@ -3,7 +3,6 @@
 
 .headline {
   background-color: $skin;
-  padding: 35px 0 0;
   &__description {
     @extend .flex-column;
     @include extra-large-screen {
@@ -14,6 +13,7 @@
     }
     &_title {
       padding: 0 15px 0 15px;
+
       margin: 0;
       font-weight: 700;
       font-size: 50px;
@@ -30,7 +30,7 @@
       }
     }
     &_about {
-      padding: 0 15px 0 15px;
+      padding: 33px 15px 0 15px;
       margin: 24px 0 0 0;
       font-weight: 400;
       font-size: 24px;
