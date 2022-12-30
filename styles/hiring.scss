@@ -99,6 +99,7 @@
     &_vacancy:hover {
       @include extra-large-screen {
         background: $blue-sixth-shade;
+        cursor: pointer;
         .hiring__jobs_vacancy-description {
           color: $white-fourth-shade;
           .hiring__jobs_vacancy-description-time {

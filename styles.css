@@ -1584,6 +1584,7 @@
 @media screen and (min-width: 401px) {
   .hiring__jobs_vacancy:hover {
     background: rgb(49, 65, 197);
+    cursor: pointer;
   }
   .hiring__jobs_vacancy:hover .hiring__jobs_vacancy-description {
     color: rgb(255, 255, 255);
@@ -1623,16 +1624,63 @@
   color: rgb(48, 64, 196);
 }
 
+.flex-column, .footer__logo, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .header__headline, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback, .hiring__description {
+  display: flex;
+  flex-direction: column;
+}
+
+.ordinary-button, .button-started, .button-learn, .header__menu .button-started {
+  align-items: center;
+  padding: 0;
+  border: none;
+  height: 48px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 13px;
+  border-radius: 2px;
+}
+
+.button-started, .header__menu .button-started {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
+  color: rgb(255, 255, 255);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+}
+
+.button-learn {
+  background-color: rgb(255, 255, 255);
+  color: rgb(48, 64, 196);
+}
+
 .order {
   padding: 50px 15px;
   background-color: rgb(244, 245, 247);
 }
+@media screen and (min-width: 401px) {
+  .order {
+    display: flex;
+    padding: 73px 228px 72px 224px;
+  }
+}
 .order__picture {
   display: flex;
   justify-content: center;
-  max-width: 100%;
 }
-.order__description_title {
+.order__picture_image {
+  width: 200px;
+  height: 220px;
+}
+@media screen and (min-width: 401px) {
+  .order__picture_image {
+    width: 269.41px;
+    height: 296px;
+  }
+}
+@media screen and (min-width: 401px) {
+  .order__description {
+    margin-left: 122.59px;
+  }
+}
+.order__description_text .order__description_text-title {
   margin: 40px 0 0;
   font-weight: 700;
   font-size: 40px;
@@ -1641,14 +1689,33 @@
   letter-spacing: -0.25px;
   color: rgb(43, 41, 45);
 }
-.order__description_text {
+@media screen and (min-width: 401px) {
+  .order__description_text .order__description_text-title {
+    text-align: left;
+    margin: 0;
+  }
+}
+.order__description_text .order__description_text-about {
   margin: 18px 0 0;
   font-weight: 400;
   font-size: 22px;
   line-height: 32px;
+  text-align: center;
   color: rgb(43, 41, 45);
 }
-.order__email {
+@media screen and (min-width: 401px) {
+  .order__description_text .order__description_text-about {
+    text-align: left;
+    margin: 12px 0 0;
+  }
+}
+@media screen and (min-width: 401px) {
+  .order__description_buttons {
+    display: flex;
+    margin: 26px 0 0;
+  }
+}
+.order__description_buttons .order__description_text-email {
   margin: 40px 0 0;
   border: 1px solid rgba(43, 41, 45, 0.2);
   border-radius: 2px;
@@ -1659,18 +1726,31 @@
   width: 100%;
   height: 48px;
 }
-.order .button-started {
+@media screen and (min-width: 401px) {
+  .order__description_buttons .order__description_text-email {
+    margin: 0;
+    flex-grow: 3;
+    width: 385px;
+  }
+}
+.order__description_buttons .button-started {
   margin: 12px 0 0;
   width: 100%;
 }
-.order__footnote {
+@media screen and (min-width: 401px) {
+  .order__description_buttons .button-started {
+    margin: 0 0 0 10px;
+    width: 160px;
+  }
+}
+.order__description_footnote {
   margin: 10px 0 0;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
   color: rgba(43, 41, 45, 0.6);
 }
-.order__footnote a:visited {
+.order__description_footnote a:visited {
   color: rgb(49, 66, 198);
 }
 
