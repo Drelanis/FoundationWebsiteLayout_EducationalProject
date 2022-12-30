@@ -4,7 +4,9 @@
 
 <p>Layout supports mobile (up-to-400) and desktop (up-to-1360) versions</p>
 
-<li>The tech stack is:
+The tech stack is:
+
+<li>
 <ul>HTML5</ul>
 <ul>CSS3</ul>
 <ul>Flexbox</ul>
