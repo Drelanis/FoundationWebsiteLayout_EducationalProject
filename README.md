@@ -2,7 +2,7 @@
 
 <a href="#">Site link</a>
 
-<p>Layout supports mobile (up-to-400) and desktop (up-to-1360) versions</p>
+<p>Layout supports mobile (up-to-400) and desktop (up-to-1400) versions</p>
 
 <h4>The tech stack is:</h4>
 
@@ -13,3 +13,8 @@
 <li><a href="https://sass-lang.com/">Sass (Scss)</a></li>
 <li><a href="https://en.bem.info/methodology/">BEM methodology</a></li>
 </ul>
+
+<h4>Author</h4>
+
+<ul>
+<li><a href="https://t.me/Drelanis">Denys BADAKA</a></li>
