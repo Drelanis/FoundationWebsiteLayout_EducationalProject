@@ -55,6 +55,11 @@
 .headline {
   background-color: rgb(243, 198, 189);
 }
+@media screen and (max-width: 401px) {
+  .headline {
+    padding: 35px 0 0;
+  }
+}
 @media screen and (min-width: 401px) {
   .headline__description {
     position: absolute;
@@ -131,7 +136,7 @@
 }
 @media screen and (min-width: 401px) {
   .headline .headline__image .main-image {
-    width: 796px;
+    max-width: 796px;
     height: 448px;
     margin: 90px 0 77px 579px;
   }

@@ -3,6 +3,9 @@
 
 .headline {
   background-color: $skin;
+  @include small-screen {
+    padding: 35px 0 0;
+  }
   &__description {
     @extend .flex-column;
     @include extra-large-screen {
@@ -69,7 +72,7 @@
       max-width: 100vw;
       margin: 33px 0 0 0;
       @include extra-large-screen {
-        width: 796px;
+        max-width: 796px;
         height: 448px;
         margin: 90px 0 77px 579px;
       }
