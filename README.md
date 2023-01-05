@@ -1,6 +1,6 @@
 <h1>Layout Sample Project</h1>
 
-<a href="#">Site link</a>
+<a href="https://drelanis.github.io/Foundation-website-layout/">Site link</a>
 
 <p>Layout supports mobile (up-to-400) and desktop (up-to-1400) versions</p>
 
