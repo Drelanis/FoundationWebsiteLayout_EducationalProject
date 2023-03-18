@@ -5,7 +5,7 @@
   @include extra-large-screen {
     display: flex;
     flex-direction: column;
-    padding: 44px 0 15px 0;
+    padding: 44px 0 0px 0;
   }
   &__description {
     @include extra-large-screen {
@@ -87,16 +87,6 @@
         }
       }
     }
-    &_border {
-      width: 100%;
-      height: 1px;
-      background: $main-text-color;
-      opacity: 0.1;
-      margin: 40px 0 0;
-      @include extra-large-screen {
-        display: none;
-      }
-    }
     &_navigation {
       padding: 0 15px;
       margin: 30px 0 0;
@@ -114,11 +104,14 @@
         font-weight: 400;
         font-size: 18px;
         line-height: 30px;
-        color: $main-text-color-opacity-06;
         margin: 18px 0 0;
         .footer__description_navigation-list-item {
           margin: 0;
           padding: 0;
+          .footer__description_navigation-list-item-link {
+            text-decoration: none;
+            color: $main-text-color-opacity-06;
+          }
         }
         .footer__description_navigation-list-item:not(:first-child) {
           margin: 6px 0 0;
@@ -148,6 +141,9 @@
       padding: 13px 132px 0 130px;
     }
     &_license {
+      @include extra-large-screen {
+        margin: auto 0;
+      }
       margin: 30px 0 0 15px;
       .footer__document_license-item {
         font-weight: 400;
@@ -162,6 +158,9 @@
     &_social {
       display: flex;
       margin: 31px 0 0 15px;
+      @include extra-large-screen {
+        margin: auto 0;
+      }
       .footer__document_social-icon {
         width: 21px;
         height: 16px;

@@ -12,7 +12,7 @@ $black-opacity-007: rgb(0, 161, 198, 0.07);
 
 $white: rgb(227, 227, 227);
 $white-first-shade: rgb(244, 245, 247);
-$white-second-shade: rgb(252, 240, 227);
+$white-second-shade: rgb(252, 240, 227, 0.4);
 $white-third-shade: rgb(242, 242, 242);
 $white-fourth-shade: rgb(255, 255, 255);
 
@@ -70,10 +70,12 @@ $image-shadow: drop-shadow(0px 4px 16px rgba(44, 50, 65, 0.08));
   background: $gradient-black-blue;
   color: $white-fourth-shade;
   box-shadow: $box-shadow-inbox-comment;
+  cursor: pointer;
 }
 
 .button-learn {
   @extend .ordinary-button;
   background-color: $white-fourth-shade;
   color: $blue-third-shade;
+  cursor: pointer;
 }

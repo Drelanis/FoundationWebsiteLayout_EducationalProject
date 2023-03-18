@@ -18,11 +18,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header, .headline__description {
@@ -45,11 +47,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .headline {
@@ -130,9 +134,11 @@
     margin: 0 0 0 10px;
   }
 }
+.headline .headline__image {
+  padding: 33px 0 33px 0;
+}
 .headline .headline__image .main-image {
   max-width: 100vw;
-  margin: 33px 0 0 0;
 }
 @media screen and (min-width: 401px) {
   .headline .headline__image .main-image {
@@ -162,11 +168,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header, .headline__description {
@@ -189,11 +197,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header, .headline__description {
@@ -216,11 +226,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .header__menu_image .header__menu_image-icon, .header__menu_logo .header__menu_logo-text, .header, .headline__description {
@@ -243,11 +255,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .header {
@@ -391,11 +405,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .headline__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon {
@@ -418,11 +434,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .description {
@@ -487,11 +505,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .headline__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon {
@@ -514,11 +534,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .logos {
@@ -606,11 +628,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .features__content, .headline__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon {
@@ -633,11 +657,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .features {
@@ -713,11 +739,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .headline__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .features__content {
@@ -740,11 +768,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .features-large {
@@ -851,11 +881,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .inbox__description_comment, .inbox__description_about, .headline__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .features__content {
@@ -878,17 +910,19 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .inbox {
   display: flex;
   flex-direction: column;
-  background-color: rgb(252, 240, 227);
+  background-color: rgba(252, 240, 227, 0.4);
   padding: 0 15px 50px;
 }
 @media screen and (min-width: 401px) {
@@ -952,6 +986,13 @@
   line-height: 40px;
   letter-spacing: -0.357143px;
 }
+@media screen and (min-width: 401px) {
+  .inbox__description_about .inbox__description_about-title {
+    font-size: 56px;
+    letter-spacing: -0.5px;
+    line-height: 56px;
+  }
+}
 .inbox__description_about .inbox__description_about-text {
   margin: 18px 0 0;
   font-weight: 400;
@@ -1013,11 +1054,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .headline__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
@@ -1040,16 +1083,18 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .communicate {
   padding: 50px 15px;
-  background-color: rgb(242, 242, 242);
+  background-color: rgba(242, 242, 242, 0.3);
 }
 @media screen and (min-width: 401px) {
   .communicate {
@@ -1176,11 +1221,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .audience__categories_item, .audience__description, .audience, .headline__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information {
@@ -1203,11 +1250,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .audience {
@@ -1367,11 +1416,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .feedback, .headline__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item {
@@ -1394,11 +1445,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .feedback {
@@ -1526,11 +1579,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .hiring__description, .headline__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback {
@@ -1553,11 +1608,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .hiring {
@@ -1704,11 +1761,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .flex-column, .headline__description, .header, .header__menu_logo .header__menu_logo-text, .header__menu_image .header__menu_image-icon, .features__content, .inbox__description_about, .inbox__description_comment, .inbox__description_comment .inbox__description_comment-autor .inbox__description_comment-autor-information, .audience, .audience__description, .audience__categories_item, .feedback, .hiring__description {
@@ -1731,11 +1790,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .order {
@@ -1817,8 +1878,10 @@
 @media screen and (min-width: 401px) {
   .order__description_buttons .order__description_text-email {
     margin: 0;
+    padding: 0 0 0 15px;
     flex-grow: 3;
     width: 385px;
+    text-align: start;
   }
 }
 .order__description_buttons .button-started {
@@ -1862,11 +1925,13 @@
   background: linear-gradient(180deg, rgba(255, 255, 255, 0.05) 0%, rgba(255, 255, 255, 0.00001) 100%), rgb(48, 64, 196);
   color: rgb(255, 255, 255);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05), inset 0px 1px 0px rgba(255, 255, 255, 0.1);
+  cursor: pointer;
 }
 
 .button-learn {
   background-color: rgb(255, 255, 255);
   color: rgb(48, 64, 196);
+  cursor: pointer;
 }
 
 .footer {
@@ -1876,7 +1941,7 @@
   .footer {
     display: flex;
     flex-direction: column;
-    padding: 44px 0 15px 0;
+    padding: 44px 0 0px 0;
   }
 }
 @media screen and (min-width: 401px) {
@@ -1974,18 +2039,6 @@
     margin: 0 0 0 10px;
   }
 }
-.footer__description_border {
-  width: 100%;
-  height: 1px;
-  background: rgb(43, 41, 45);
-  opacity: 0.1;
-  margin: 40px 0 0;
-}
-@media screen and (min-width: 401px) {
-  .footer__description_border {
-    display: none;
-  }
-}
 .footer__description_navigation {
   padding: 0 15px;
   margin: 30px 0 0;
@@ -2006,12 +2059,15 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 30px;
-  color: rgba(43, 41, 45, 0.6);
   margin: 18px 0 0;
 }
 .footer__description_navigation .footer__description_navigation-list .footer__description_navigation-list-item {
   margin: 0;
   padding: 0;
+}
+.footer__description_navigation .footer__description_navigation-list .footer__description_navigation-list-item .footer__description_navigation-list-item-link {
+  text-decoration: none;
+  color: rgba(43, 41, 45, 0.6);
 }
 .footer__description_navigation .footer__description_navigation-list .footer__description_navigation-list-item:not(:first-child) {
   margin: 6px 0 0;
@@ -2043,6 +2099,11 @@
 .footer__document_license {
   margin: 30px 0 0 15px;
 }
+@media screen and (min-width: 401px) {
+  .footer__document_license {
+    margin: auto 0;
+  }
+}
 .footer__document_license .footer__document_license-item {
   font-weight: 400;
   font-size: 14px;
@@ -2055,6 +2116,11 @@
 .footer__document_social {
   display: flex;
   margin: 31px 0 0 15px;
+}
+@media screen and (min-width: 401px) {
+  .footer__document_social {
+    margin: auto 0;
+  }
 }
 .footer__document_social .footer__document_social-icon {
   width: 21px;
